@@ -1,0 +1,15 @@
+<state>
+  <timestamp value='1793920398448' />
+  <sourceSet name='default'>
+    <source name='/home/quinnwebster/seng350-lab03/callback-adapt-send/Callback.ice'>
+      <file name='/home/quinnwebster/seng350-lab03/callback-adapt-send/client/build/generated-src/Demo/Callback.java' />
+      <file name='/home/quinnwebster/seng350-lab03/callback-adapt-send/client/build/generated-src/Demo/ChatManager.java' />
+      <file name='/home/quinnwebster/seng350-lab03/callback-adapt-send/client/build/generated-src/Demo/CallbackPrx.java' />
+      <file name='/home/quinnwebster/seng350-lab03/callback-adapt-send/client/build/generated-src/Demo/_CallbackPrxI.java' />
+      <file name='/home/quinnwebster/seng350-lab03/callback-adapt-send/client/build/generated-src/Demo/ChatManagerPrx.java' />
+      <file name='/home/quinnwebster/seng350-lab03/callback-adapt-send/client/build/generated-src/Demo/_ChatManagerPrxI.java' />
+    </source>
+    <arg value='/opt/Ice-3.7.9/bin/slice2java' />
+    <arg value='-I/opt/Ice-3.7.9/slice' />
+  </sourceSet>
+</state>
