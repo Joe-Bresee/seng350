@@ -117,7 +117,8 @@ public class Client {
                 }
 
                 // chatManagerPrx.sendMessage(hostname + ": Hello World");
-
+                System.out.println("Client shutting down communicator...");
+                communicator.shutdown();
                 communicator.waitForShutdown();
 
             } catch (Exception e) {

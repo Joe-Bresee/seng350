@@ -53,7 +53,7 @@ public class ChatManagerImp implements Demo.ChatManager {
             if (current != null && current.adapter != null) {
                 System.out.println("Stopping ZeroC Ice Communicator...");
                 com.zeroc.Ice.Communicator communicator = current.adapter.getCommunicator();
-                communicator.shutdown();
+                communicator.waitForShutdown();
             }
         }
     }

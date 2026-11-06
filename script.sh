@@ -2,25 +2,20 @@
 
 set -e
 
-echo "=========================================================="
 echo " Starting Performance Quality Attribute Experimentation  "
-echo "=========================================================="
 
-TOTAL_IMAGES_PER_CLIENT=300
+TOTAL_IMAGES_PER_CLIENT=600
 FREQUENCY_MS=200
 GI_PROBABILITY=0
 
 TOTAL_EXPECTED_MSGS=$(( TOTAL_IMAGES_PER_CLIENT * 3 ))
 
-echo "[1/4] compiling"
 gradle build
 
-echo "[2/4] initing Server, Threshold Target: $TOTAL_EXPECTED_MSGS"
 java -jar server/build/libs/server.jar "$TOTAL_EXPECTED_MSGS" > server_run.log 2>&1 &
 SERVER_PID=$!
 sleep 2.5
 
-echo "[3/4] initing 3 Client Processes concurrently"
 java -jar client/build/libs/client.jar 1 "$TOTAL_IMAGES_PER_CLIENT" "$FREQUENCY_MS" "$GI_PROBABILITY" &
 C1_PID=$!
 java -jar client/build/libs/client.jar 2 "$TOTAL_IMAGES_PER_CLIENT" "$FREQUENCY_MS" "$GI_PROBABILITY" &
@@ -31,7 +26,7 @@ C3_PID=$!
 wait $C1_PID
 wait $C2_PID
 wait $C3_PID
-echo "[4/4] Completed, see analysis"
+echo "Completed, see analysis"
 
 sleep 1.0
 
@@ -42,5 +37,5 @@ if kill -0 $SERVER_PID 2>/dev/null; then
     kill -9 $SERVER_PID
 fi
 
-rm -f server_run.log
+# rm -f server_run.log
 echo "Experiment execution successfully processed."
