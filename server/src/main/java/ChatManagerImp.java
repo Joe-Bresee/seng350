@@ -19,14 +19,44 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 
 
-
-
 public class ChatManagerImp implements Demo.ChatManager {
 
     //Performance analysis
     private final AtomicInteger receivedNormalCount = new AtomicInteger(0);
     private final AtomicInteger dispatchedNotificationCount = new AtomicInteger(0);
+    private final int targetThreshold;
+    private final java.util.concurrent.atomic.AtomicInteger processedCount = new java.util.concurrent.atomic.AtomicInteger(0);
     private long experimentStartTime = 0;
+
+    public ChatManagerImp(int targetThreshold) {
+        this.targetThreshold = targetThreshold;
+        this.messages = java.util.Collections.synchronizedList(new java.util.ArrayList<>());
+    }
+
+    private void checkProgress(Current current) {
+        int currentCount = processedCount.incrementAndGet();
+        
+        if (currentCount == 1) {
+            experimentStartTime = System.currentTimeMillis();
+        }
+        
+        if (currentCount == targetThreshold) {
+            long durationMs = System.currentTimeMillis() - experimentStartTime;
+            double durationSec = durationMs / 1000.0;
+            
+            System.out.println("\n=== EXPERIMENT RUN RESULTS ===");
+            System.out.println("Total Processing Window: " + durationSec + " seconds");
+            System.out.println("Total Messages Handled: " + currentCount);
+            System.out.println("Throughput Factor: " + (currentCount / durationSec) + " msg/sec");
+            System.out.println("==============================\n");
+            
+            if (current != null && current.adapter != null) {
+                System.out.println("Stopping ZeroC Ice Communicator...");
+                com.zeroc.Ice.Communicator communicator = current.adapter.getCommunicator();
+                communicator.shutdown();
+            }
+        }
+    }
 
     public void resetAndStartExperiment() {
         receivedNormalCount.set(0);
@@ -55,10 +85,6 @@ public class ChatManagerImp implements Demo.ChatManager {
     // Semaphore mSemaphore = new Semaphore(1);
     private CopyOnWriteArrayList<CallbackPrx> subscribers = new CopyOnWriteArrayList<>();
 
-    ChatManagerImp() {
-        messages = new ArrayList<>();
-    }
-
     @Override
     public void subscribe(CallbackPrx callback, Current current) {
         System.out.println("subscribed");
@@ -81,17 +107,15 @@ public class ChatManagerImp implements Demo.ChatManager {
 
         @Override
         public void sendMessage(String msg, Current current) {
-            // Process message in a separate thread safely
             new Thread(() -> {
                 try {
-                    processMessage(msg);
-                                // try {
-
-                //     Thread.sleep(2000);
-                // } catch (Exception e) {
-                //     // TODO: handle exception
-                // }
-                // callbackPrx.notifyCallback();
+                    processMessage(msg, current);
+                    // try {
+                    //     Thread.sleep(2000);
+                    // } catch (Exception e) {
+                    //     // handle exception
+                    // }
+                    // callbackPrx.notifyCallback();
                 } catch (Exception e) {
                     System.err.println("Critical error processing asynchronous message: " + e.getMessage());
                     e.printStackTrace();
@@ -113,7 +137,7 @@ public class ChatManagerImp implements Demo.ChatManager {
     }
 
 
-    private void processMessage(String serialized) {
+    private void processMessage(String serialized, Current current) {
         String[] parts = serialized.split("\\|", 4);
 
         int busId = Integer.parseInt(parts[0]);
@@ -152,6 +176,8 @@ public class ChatManagerImp implements Demo.ChatManager {
             }catch(IOException e){
                 System.out.println("Failed to save image");
             }
+
+            checkProgress(current);
         }
 
         if("GENERALINTEREST".equals(tag)){
@@ -161,6 +187,7 @@ public class ChatManagerImp implements Demo.ChatManager {
 
             sendMessageToSubscribers(message);
 
+            checkProgress(current);
         }
 
 
