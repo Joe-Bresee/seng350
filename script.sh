@@ -6,7 +6,7 @@ echo " Starting Performance Quality Attribute Experimentation  "
 
 TOTAL_IMAGES_PER_CLIENT=600
 FREQUENCY_MS=200
-GI_PROBABILITY=0
+GI_PROBABILITY=100
 
 TOTAL_EXPECTED_MSGS=$(( TOTAL_IMAGES_PER_CLIENT * 3 ))
 
