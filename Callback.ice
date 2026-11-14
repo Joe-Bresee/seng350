@@ -2,12 +2,12 @@ module Demo
 {
     sequence<string> StringSeq;
 
-    interface Callback{
+    interface BusNotificationObserver{
         void notifyCallback(string message);
     }
-    interface ChatManager{
+    interface NotificationSubject{
 
-        void subscribe(Callback* callback);
+        void subscribe(BusNotificationObserver* callback, string busId);
 
         StringSeq getState();
 

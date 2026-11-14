@@ -1,22 +1,24 @@
 public class Server {
     public static void main(String[] args) {
-        int expectedCount = 900; 
-        if (args.length > 0) {
-            try {
-                expectedCount = Integer.parseInt(args[0]);
-            } catch (NumberFormatException e) {
-                System.out.println("Invalid threshold format, using default: " + expectedCount);
+        String configFile = "server.cfg";
+        java.util.List<String> iceArguments = new java.util.ArrayList<>();
+        for (String argument : args) {
+            if (argument.startsWith("--config=")) {
+                configFile = argument.substring("--config=".length());
+            } else {
+                iceArguments.add(argument);
             }
         }
 
-        try (com.zeroc.Ice.Communicator communicator = com.zeroc.Ice.Util.initialize(args, "server.cfg")) {
+        try (com.zeroc.Ice.Communicator communicator = com.zeroc.Ice.Util.initialize(
+                iceArguments.toArray(new String[0]), configFile)) {
             com.zeroc.Ice.ObjectAdapter adapter = communicator.createObjectAdapter("Service");
-            ChatManagerImp chatManagerServant = new ChatManagerImp(expectedCount);
+            ControlCenter controlCenter = new ControlCenter();
             
-            adapter.add(chatManagerServant, com.zeroc.Ice.Util.stringToIdentity("ChatManager"));
+            adapter.add(controlCenter, com.zeroc.Ice.Util.stringToIdentity("NotificationSubject"));
             adapter.activate();
             
-            System.out.println("Server running. Target profile threshold: " + expectedCount);
+            System.out.println("Control center running with configuration: " + configFile);
             
             communicator.waitForShutdown();
         }

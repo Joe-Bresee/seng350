@@ -10,6 +10,10 @@ subprojects {
     }
 
     slice {
+        // Overriding ICE location for using w/ VM
+        def localIceHome = file("${System.getProperty('user.home')}/.local/ice")
+        iceHome = findProperty('iceHome') ?: System.getenv('ICE_HOME') ?:
+            (localIceHome.exists() ? localIceHome : '/usr')
         java {
             files = [file("../Callback.ice")]
         }
@@ -20,11 +24,15 @@ subprojects {
     }
 
     jar {
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+        from {
+            configurations.runtimeClasspath.collect {
+                it.isDirectory() ? it : zipTree(it)
+            }
+        }
         manifest {
             attributes(
-            "Main-Class" : project.name.capitalize(),
-            "Class-Path": '/opt/Ice-3.7.9/lib/ice-3.7.9.jar'
-            //"Class-Path": configurations.runtimeClasspath.resolve().collect { it.toURI() }.join(' ')
+            "Main-Class" : project.name.capitalize()
         )
     }
 }
