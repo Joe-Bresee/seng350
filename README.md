@@ -22,25 +22,21 @@ Start the control center in one terminal:
 Start a bus in another terminal:
 
 ```bash
-xvfb-run -a -s "-screen 0 1280x720x24" \
-  env -u WAYLAND_DISPLAY -u XDG_SESSION_TYPE \
-  java -Dawt.toolkit=sun.awt.X11.XToolkit \
+java -Djava.awt.headless=true \
   -jar client/build/libs/client.jar <busId> <imageCount> <frequencyMs> <criticalPercentage>
 ```
 
 For example, this sends ten images with every image tagged `CRITICAL`:
 
 ```bash
-XVFB_SCREEN=1280x720x24 ./scripts/run-clients.sh 10 0 100
+./scripts/run-clients.sh 10 0 100
 ```
 
-The client captures the desktop when a graphical environment is available and
-otherwise uses an image from `data/<busId>/` as the payload source.
-
-On Wayland or on systems without a usable X11 session, the client runner
-scripts launch each client with `xvfb-run` and capture from a virtual X11
-display. Configure its size with `XVFB_SCREEN`, for example
-`XVFB_SCREEN=1920x1080x24 ./scripts/run-clients.sh`.
+The client captures the desktop when a graphical environment is available. In
+headless mode, it renders a non-empty 1280x720 frame off-screen with
+`BufferedImage` and `Graphics2D`, then JPEG-encodes it before sending.
+The runner scripts use `-Djava.awt.headless=true`, so they do not require X11,
+Wayland, Xvfb, or screen-sharing permissions.
 
 ## Experiments
 
