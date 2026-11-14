@@ -3,6 +3,3 @@ data/**
 build/
 client/build/
 server/build/
-experiments/*.log
-experiments/results.csv
-Group9/
