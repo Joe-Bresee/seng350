@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class ControlCenter implements Demo.NotificationSubject {
     private final Map<BusNotificationObserverPrx, String> busObservers = new ConcurrentHashMap<>();
-    private final ImageStorage imageStorage = new ImageStorage(Paths.get("yourTeam#"));
+    private final ImageStorage imageStorage = new ImageStorage(Paths.get("Group9"));
     private final CriticalityProcessor criticalityProcessor = new CriticalityProcessor();
     private final AtomicInteger processedMessages = new AtomicInteger();
 
