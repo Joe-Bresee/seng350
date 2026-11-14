@@ -1,18 +1,5 @@
 ### Test executed
 
-**Note:** This test was executed in a UTM Ubuntu for ARM virtual machine on a
-macOS host. The guest exposes the following environment:
-
-| |  |
-|---|---|
-| Host | macOS GoldenGate 27.0.1 |
-| Virtualization | UTM QEMU |
-| architecture | ARM64 |
-| VM CPUs | 10 |
-| VM memory | 3.3 GiB |
-| Ubuntu | Ubuntu 26.04.1 LTS |
-
-
 Build:
 
 ```bash
@@ -90,7 +77,7 @@ Group9/1/CRITICAL-2026-11-14-03-27-18-865.jpg
 
 ### Results summary
 
-Results are saved in `experiments/results.csv`:
+Results are saved in `experiments/results.csv`.
 
 | Thread pool size | Run | Client | Average send latency (ms) | Throughput (msg/sec) |
 |---:|---:|---:|---:|---:|
