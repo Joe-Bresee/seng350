@@ -16,20 +16,7 @@ for `CRITICAL`.
 Start the control center in one terminal:
 
 ```bash
-./scripts/run-server.sh
-```
-
-Start a bus in another terminal:
-
-```bash
-java -Djava.awt.headless=true \
-  -jar client/build/libs/client.jar <busId> <imageCount> <frequencyMs> <criticalPercentage>
-```
-
-For example, this sends ten images with every image tagged `CRITICAL`:
-
-```bash
-./scripts/run-clients.sh 10 0 100
+./scripts/run-experiments.sh
 ```
 
 The client captures the desktop when a graphical environment is available. In

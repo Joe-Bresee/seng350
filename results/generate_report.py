@@ -261,11 +261,14 @@ Results are saved in `experiments/results.csv`.
 | Thread pool | Mean latency | Mean throughput | Samples |
 |---:|---:|---:|---:|
 """
-    report += """| 1 | 0.340 ms | 1,716.22 msg/sec | 12 |
-| 4 | 0.381 ms | 1,610.40 msg/sec | 12 |
-| 8 | 0.352 ms | 1,739.02 msg/sec | 12 |
-| 12 | 0.451 ms | 1,578.92 msg/sec | 12 |
-"""
+    report += "\n".join(
+        f"| {item['thread_pool_size']} | "
+        f"{float(item['mean_latency']):.3f} ms | "
+        f"{float(item['mean_throughput']):,.2f} msg/sec | "
+        f"{item['samples']} |"
+        for item in summary
+    )
+    report += "\n"
     report += """
 
 Logs are stored in:
