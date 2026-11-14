@@ -1,1202 +1,1202 @@
 Picked up _JAVA_OPTIONS: -Xmx1024m -XX:CompressedClassSpaceSize=256m
-sent=1 tag=CRITICAL latencyMs=15.318
+sent=1 tag=CRITICAL latencyMs=93.633
 Notification received: ACTION for 4
+sent=2 tag=CRITICAL latencyMs=14.451
 Notification received: ACTION for 4
-sent=2 tag=CRITICAL latencyMs=9.324
 Notification received: ACTION for 4
-sent=3 tag=CRITICAL latencyMs=15.199
-sent=4 tag=CRITICAL latencyMs=47.705
+sent=3 tag=CRITICAL latencyMs=8.563
 Notification received: ACTION for 4
+sent=4 tag=CRITICAL latencyMs=7.138
 Notification received: ACTION for 4
-sent=5 tag=CRITICAL latencyMs=12.290
-sent=6 tag=CRITICAL latencyMs=5.485
+sent=5 tag=CRITICAL latencyMs=13.950
 Notification received: ACTION for 4
+sent=6 tag=CRITICAL latencyMs=5.300
 Notification received: ACTION for 4
-sent=7 tag=CRITICAL latencyMs=5.662
+sent=7 tag=CRITICAL latencyMs=15.768
 Notification received: ACTION for 4
-sent=8 tag=CRITICAL latencyMs=16.497
+sent=8 tag=CRITICAL latencyMs=6.267
+sent=9 tag=CRITICAL latencyMs=4.947
 Notification received: ACTION for 4
-sent=9 tag=CRITICAL latencyMs=5.423
 Notification received: ACTION for 4
-sent=10 tag=CRITICAL latencyMs=6.800
+sent=10 tag=CRITICAL latencyMs=4.894
 Notification received: ACTION for 4
-sent=11 tag=CRITICAL latencyMs=4.564
-sent=12 tag=CRITICAL latencyMs=7.612
+sent=11 tag=CRITICAL latencyMs=5.406
 Notification received: ACTION for 4
-sent=13 tag=CRITICAL latencyMs=6.895
+sent=12 tag=CRITICAL latencyMs=17.653
 Notification received: ACTION for 4
+sent=13 tag=CRITICAL latencyMs=16.609
 Notification received: ACTION for 4
-sent=14 tag=CRITICAL latencyMs=11.242
-sent=15 tag=CRITICAL latencyMs=5.148
+sent=14 tag=CRITICAL latencyMs=8.347
+sent=15 tag=CRITICAL latencyMs=6.658
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=16 tag=CRITICAL latencyMs=7.770
+sent=16 tag=CRITICAL latencyMs=10.469
 Notification received: ACTION for 4
-sent=17 tag=CRITICAL latencyMs=6.880
-sent=18 tag=CRITICAL latencyMs=4.456
+sent=17 tag=CRITICAL latencyMs=4.611
 Notification received: ACTION for 4
+sent=18 tag=CRITICAL latencyMs=5.556
 Notification received: ACTION for 4
-sent=19 tag=CRITICAL latencyMs=5.162
-sent=20 tag=CRITICAL latencyMs=3.960
+sent=19 tag=CRITICAL latencyMs=11.202
 Notification received: ACTION for 4
-sent=21 tag=CRITICAL latencyMs=4.095
+sent=20 tag=CRITICAL latencyMs=5.331
 Notification received: ACTION for 4
-sent=22 tag=CRITICAL latencyMs=4.744
+sent=21 tag=CRITICAL latencyMs=4.621
+sent=22 tag=CRITICAL latencyMs=4.832
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=23 tag=CRITICAL latencyMs=17.989
+sent=23 tag=CRITICAL latencyMs=5.231
 Notification received: ACTION for 4
-sent=24 tag=CRITICAL latencyMs=5.366
+sent=24 tag=CRITICAL latencyMs=4.486
 Notification received: ACTION for 4
-sent=25 tag=CRITICAL latencyMs=8.238
-sent=26 tag=CRITICAL latencyMs=4.493
+sent=25 tag=CRITICAL latencyMs=7.406
 Notification received: ACTION for 4
-sent=27 tag=CRITICAL latencyMs=3.996
+sent=26 tag=CRITICAL latencyMs=4.329
 Notification received: ACTION for 4
-sent=28 tag=CRITICAL latencyMs=4.079
+sent=27 tag=CRITICAL latencyMs=4.580
 Notification received: ACTION for 4
+sent=28 tag=CRITICAL latencyMs=4.759
 Notification received: ACTION for 4
-sent=29 tag=CRITICAL latencyMs=4.459
+sent=29 tag=CRITICAL latencyMs=6.130
 Notification received: ACTION for 4
-sent=30 tag=CRITICAL latencyMs=5.033
+sent=30 tag=CRITICAL latencyMs=7.540
+sent=31 tag=CRITICAL latencyMs=4.651
 Notification received: ACTION for 4
-sent=31 tag=CRITICAL latencyMs=4.878
+sent=32 tag=CRITICAL latencyMs=5.584
 Notification received: ACTION for 4
-sent=32 tag=CRITICAL latencyMs=4.900
 Notification received: ACTION for 4
-sent=33 tag=CRITICAL latencyMs=4.070
+sent=33 tag=CRITICAL latencyMs=4.461
+sent=34 tag=CRITICAL latencyMs=5.820
 Notification received: ACTION for 4
-sent=34 tag=CRITICAL latencyMs=5.477
+sent=35 tag=CRITICAL latencyMs=6.256
 Notification received: ACTION for 4
-sent=35 tag=CRITICAL latencyMs=4.873
 Notification received: ACTION for 4
-sent=36 tag=CRITICAL latencyMs=3.949
-sent=37 tag=CRITICAL latencyMs=4.526
+sent=36 tag=CRITICAL latencyMs=3.994
 Notification received: ACTION for 4
-sent=38 tag=CRITICAL latencyMs=3.815
+sent=37 tag=CRITICAL latencyMs=4.501
+sent=38 tag=CRITICAL latencyMs=4.045
 Notification received: ACTION for 4
-sent=39 tag=CRITICAL latencyMs=9.363
+sent=39 tag=CRITICAL latencyMs=6.354
 Notification received: ACTION for 4
-sent=40 tag=CRITICAL latencyMs=3.778
+sent=40 tag=CRITICAL latencyMs=4.796
 Notification received: ACTION for 4
-sent=41 tag=CRITICAL latencyMs=3.516
 Notification received: ACTION for 4
-sent=42 tag=CRITICAL latencyMs=3.937
+sent=41 tag=CRITICAL latencyMs=6.547
 Notification received: ACTION for 4
+sent=42 tag=CRITICAL latencyMs=8.513
 Notification received: ACTION for 4
-sent=43 tag=CRITICAL latencyMs=4.695
+sent=43 tag=CRITICAL latencyMs=20.830
+sent=44 tag=CRITICAL latencyMs=8.607
 Notification received: ACTION for 4
-sent=44 tag=CRITICAL latencyMs=4.886
+sent=45 tag=CRITICAL latencyMs=4.546
 Notification received: ACTION for 4
-sent=45 tag=CRITICAL latencyMs=4.071
+sent=46 tag=CRITICAL latencyMs=3.630
 Notification received: ACTION for 4
-sent=46 tag=CRITICAL latencyMs=4.447
 Notification received: ACTION for 4
-sent=47 tag=CRITICAL latencyMs=5.607
-sent=48 tag=CRITICAL latencyMs=4.019
+sent=47 tag=CRITICAL latencyMs=4.441
 Notification received: ACTION for 4
+sent=48 tag=CRITICAL latencyMs=5.435
 Notification received: ACTION for 4
-sent=49 tag=CRITICAL latencyMs=7.228
-sent=50 tag=CRITICAL latencyMs=3.780
+sent=49 tag=CRITICAL latencyMs=6.195
 Notification received: ACTION for 4
+sent=50 tag=CRITICAL latencyMs=3.982
 Notification received: ACTION for 4
-sent=51 tag=CRITICAL latencyMs=5.849
-sent=52 tag=CRITICAL latencyMs=3.844
+sent=51 tag=CRITICAL latencyMs=4.096
 Notification received: ACTION for 4
+sent=52 tag=CRITICAL latencyMs=4.593
 Notification received: ACTION for 4
-sent=53 tag=CRITICAL latencyMs=5.052
-sent=54 tag=CRITICAL latencyMs=3.740
+sent=53 tag=CRITICAL latencyMs=4.081
 Notification received: ACTION for 4
+sent=54 tag=CRITICAL latencyMs=5.093
 Notification received: ACTION for 4
-sent=55 tag=CRITICAL latencyMs=3.576
+sent=55 tag=CRITICAL latencyMs=5.255
 Notification received: ACTION for 4
-sent=56 tag=CRITICAL latencyMs=4.199
+sent=56 tag=CRITICAL latencyMs=5.758
 Notification received: ACTION for 4
-sent=57 tag=CRITICAL latencyMs=3.636
-sent=58 tag=CRITICAL latencyMs=6.012
+sent=57 tag=CRITICAL latencyMs=5.213
 Notification received: ACTION for 4
+sent=58 tag=CRITICAL latencyMs=3.681
 Notification received: ACTION for 4
-sent=59 tag=CRITICAL latencyMs=3.847
-sent=60 tag=CRITICAL latencyMs=4.301
+sent=59 tag=CRITICAL latencyMs=4.040
 Notification received: ACTION for 4
+sent=60 tag=CRITICAL latencyMs=5.627
 Notification received: ACTION for 4
-sent=61 tag=CRITICAL latencyMs=3.869
-sent=62 tag=CRITICAL latencyMs=5.386
+sent=61 tag=CRITICAL latencyMs=4.721
 Notification received: ACTION for 4
-sent=63 tag=CRITICAL latencyMs=5.347
+sent=62 tag=CRITICAL latencyMs=5.399
 Notification received: ACTION for 4
+sent=63 tag=CRITICAL latencyMs=6.448
+sent=64 tag=CRITICAL latencyMs=7.317
 Notification received: ACTION for 4
-sent=64 tag=CRITICAL latencyMs=5.353
-sent=65 tag=CRITICAL latencyMs=4.324
+sent=65 tag=CRITICAL latencyMs=3.907
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=66 tag=CRITICAL latencyMs=3.825
-sent=67 tag=CRITICAL latencyMs=3.882
+sent=66 tag=CRITICAL latencyMs=4.259
+sent=67 tag=CRITICAL latencyMs=5.379
 Notification received: ACTION for 4
+sent=68 tag=CRITICAL latencyMs=4.879
 Notification received: ACTION for 4
-sent=68 tag=CRITICAL latencyMs=3.574
-sent=69 tag=CRITICAL latencyMs=5.499
+sent=69 tag=CRITICAL latencyMs=4.054
 Notification received: ACTION for 4
+sent=70 tag=CRITICAL latencyMs=4.299
 Notification received: ACTION for 4
-sent=70 tag=CRITICAL latencyMs=4.326
+sent=71 tag=CRITICAL latencyMs=4.472
 Notification received: ACTION for 4
-sent=71 tag=CRITICAL latencyMs=4.289
 Notification received: ACTION for 4
-sent=72 tag=CRITICAL latencyMs=5.523
+sent=72 tag=CRITICAL latencyMs=4.669
+sent=73 tag=CRITICAL latencyMs=4.385
 Notification received: ACTION for 4
-sent=73 tag=CRITICAL latencyMs=6.467
 Notification received: ACTION for 4
-sent=74 tag=CRITICAL latencyMs=4.870
+sent=74 tag=CRITICAL latencyMs=4.158
+sent=75 tag=CRITICAL latencyMs=4.184
 Notification received: ACTION for 4
-sent=75 tag=CRITICAL latencyMs=4.719
-sent=76 tag=CRITICAL latencyMs=3.986
 Notification received: ACTION for 4
-sent=77 tag=CRITICAL latencyMs=4.067
+sent=76 tag=CRITICAL latencyMs=4.147
 Notification received: ACTION for 4
-sent=78 tag=CRITICAL latencyMs=6.103
+sent=77 tag=CRITICAL latencyMs=4.005
+sent=78 tag=CRITICAL latencyMs=4.318
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=79 tag=CRITICAL latencyMs=4.102
+sent=79 tag=CRITICAL latencyMs=3.685
 Notification received: ACTION for 4
-sent=80 tag=CRITICAL latencyMs=6.664
-sent=81 tag=CRITICAL latencyMs=7.236
+sent=80 tag=CRITICAL latencyMs=3.783
 Notification received: ACTION for 4
+sent=81 tag=CRITICAL latencyMs=4.568
 Notification received: ACTION for 4
-sent=82 tag=CRITICAL latencyMs=6.275
-sent=83 tag=CRITICAL latencyMs=4.014
+sent=82 tag=CRITICAL latencyMs=5.871
+sent=83 tag=CRITICAL latencyMs=5.902
 Notification received: ACTION for 4
+sent=84 tag=CRITICAL latencyMs=4.350
 Notification received: ACTION for 4
-sent=84 tag=CRITICAL latencyMs=5.498
+sent=85 tag=CRITICAL latencyMs=4.615
 Notification received: ACTION for 4
-sent=85 tag=CRITICAL latencyMs=4.977
-sent=86 tag=CRITICAL latencyMs=8.928
 Notification received: ACTION for 4
-sent=87 tag=CRITICAL latencyMs=4.724
+sent=86 tag=CRITICAL latencyMs=4.637
 Notification received: ACTION for 4
+sent=87 tag=CRITICAL latencyMs=4.752
 Notification received: ACTION for 4
-sent=88 tag=CRITICAL latencyMs=3.834
-sent=89 tag=CRITICAL latencyMs=4.177
+sent=88 tag=CRITICAL latencyMs=4.088
 Notification received: ACTION for 4
+sent=89 tag=CRITICAL latencyMs=3.866
 Notification received: ACTION for 4
-sent=90 tag=CRITICAL latencyMs=4.153
+sent=90 tag=CRITICAL latencyMs=6.745
 Notification received: ACTION for 4
-sent=91 tag=CRITICAL latencyMs=4.897
+sent=91 tag=CRITICAL latencyMs=7.846
 Notification received: ACTION for 4
-sent=92 tag=CRITICAL latencyMs=4.317
-sent=93 tag=CRITICAL latencyMs=5.257
+sent=92 tag=CRITICAL latencyMs=5.377
+sent=93 tag=CRITICAL latencyMs=6.188
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=94 tag=CRITICAL latencyMs=4.137
+sent=94 tag=CRITICAL latencyMs=6.144
 Notification received: ACTION for 4
-sent=95 tag=CRITICAL latencyMs=4.347
+sent=95 tag=CRITICAL latencyMs=4.835
 Notification received: ACTION for 4
-sent=96 tag=CRITICAL latencyMs=3.720
-sent=97 tag=CRITICAL latencyMs=4.292
+sent=96 tag=CRITICAL latencyMs=8.272
 Notification received: ACTION for 4
+sent=97 tag=CRITICAL latencyMs=5.383
+sent=98 tag=CRITICAL latencyMs=4.801
 Notification received: ACTION for 4
-sent=98 tag=CRITICAL latencyMs=21.867
 Notification received: ACTION for 4
-sent=99 tag=CRITICAL latencyMs=5.050
+sent=99 tag=CRITICAL latencyMs=4.227
 Notification received: ACTION for 4
-sent=100 tag=CRITICAL latencyMs=4.559
+sent=100 tag=CRITICAL latencyMs=4.153
 Notification received: ACTION for 4
-sent=101 tag=CRITICAL latencyMs=4.053
+sent=101 tag=CRITICAL latencyMs=4.090
+sent=102 tag=CRITICAL latencyMs=3.944
 Notification received: ACTION for 4
-sent=102 tag=CRITICAL latencyMs=3.881
+sent=103 tag=CRITICAL latencyMs=3.720
 Notification received: ACTION for 4
-sent=103 tag=CRITICAL latencyMs=4.108
+sent=104 tag=CRITICAL latencyMs=4.064
 Notification received: ACTION for 4
-sent=104 tag=CRITICAL latencyMs=4.339
-sent=105 tag=CRITICAL latencyMs=3.758
+sent=105 tag=CRITICAL latencyMs=3.716
 Notification received: ACTION for 4
+sent=106 tag=CRITICAL latencyMs=4.125
 Notification received: ACTION for 4
-sent=106 tag=CRITICAL latencyMs=4.894
 Notification received: ACTION for 4
-sent=107 tag=CRITICAL latencyMs=3.854
+sent=107 tag=CRITICAL latencyMs=6.289
+sent=108 tag=CRITICAL latencyMs=4.098
 Notification received: ACTION for 4
-sent=108 tag=CRITICAL latencyMs=4.206
 Notification received: ACTION for 4
-sent=109 tag=CRITICAL latencyMs=4.362
+sent=109 tag=CRITICAL latencyMs=4.252
 Notification received: ACTION for 4
-sent=110 tag=CRITICAL latencyMs=3.756
-sent=111 tag=CRITICAL latencyMs=10.081
+sent=110 tag=CRITICAL latencyMs=4.088
 Notification received: ACTION for 4
-sent=112 tag=CRITICAL latencyMs=4.182
+sent=111 tag=CRITICAL latencyMs=4.233
 Notification received: ACTION for 4
+sent=112 tag=CRITICAL latencyMs=5.081
 Notification received: ACTION for 4
-sent=113 tag=CRITICAL latencyMs=3.614
+sent=113 tag=CRITICAL latencyMs=4.334
 Notification received: ACTION for 4
-sent=114 tag=CRITICAL latencyMs=4.399
+sent=114 tag=CRITICAL latencyMs=4.224
 Notification received: ACTION for 4
-sent=115 tag=CRITICAL latencyMs=5.264
-sent=116 tag=CRITICAL latencyMs=4.114
+sent=115 tag=CRITICAL latencyMs=4.614
 Notification received: ACTION for 4
-sent=117 tag=CRITICAL latencyMs=3.964
+sent=116 tag=CRITICAL latencyMs=4.406
 Notification received: ACTION for 4
+sent=117 tag=CRITICAL latencyMs=4.171
 Notification received: ACTION for 4
-sent=118 tag=CRITICAL latencyMs=3.881
+sent=118 tag=CRITICAL latencyMs=4.542
 Notification received: ACTION for 4
-sent=119 tag=CRITICAL latencyMs=4.564
-sent=120 tag=CRITICAL latencyMs=4.779
+sent=119 tag=CRITICAL latencyMs=5.898
 Notification received: ACTION for 4
+sent=120 tag=CRITICAL latencyMs=5.987
 Notification received: ACTION for 4
-sent=121 tag=CRITICAL latencyMs=4.379
+sent=121 tag=CRITICAL latencyMs=4.069
 Notification received: ACTION for 4
-sent=122 tag=CRITICAL latencyMs=10.533
+sent=122 tag=CRITICAL latencyMs=7.092
 Notification received: ACTION for 4
-sent=123 tag=CRITICAL latencyMs=8.979
+sent=123 tag=CRITICAL latencyMs=5.626
 Notification received: ACTION for 4
-sent=124 tag=CRITICAL latencyMs=11.287
-sent=125 tag=CRITICAL latencyMs=4.260
+sent=124 tag=CRITICAL latencyMs=4.709
 Notification received: ACTION for 4
-sent=126 tag=CRITICAL latencyMs=3.494
+sent=125 tag=CRITICAL latencyMs=4.259
 Notification received: ACTION for 4
-sent=127 tag=CRITICAL latencyMs=5.426
+sent=126 tag=CRITICAL latencyMs=4.651
 Notification received: ACTION for 4
-sent=128 tag=CRITICAL latencyMs=3.575
+sent=127 tag=CRITICAL latencyMs=4.403
 Notification received: ACTION for 4
-sent=129 tag=CRITICAL latencyMs=3.551
+sent=128 tag=CRITICAL latencyMs=5.607
 Notification received: ACTION for 4
+sent=129 tag=CRITICAL latencyMs=4.425
 Notification received: ACTION for 4
-sent=130 tag=CRITICAL latencyMs=3.579
+sent=130 tag=CRITICAL latencyMs=7.526
+sent=131 tag=CRITICAL latencyMs=9.021
 Notification received: ACTION for 4
-sent=131 tag=CRITICAL latencyMs=3.435
-sent=132 tag=CRITICAL latencyMs=3.471
 Notification received: ACTION for 4
+sent=132 tag=CRITICAL latencyMs=4.469
 Notification received: ACTION for 4
-sent=133 tag=CRITICAL latencyMs=3.412
+sent=133 tag=CRITICAL latencyMs=4.339
+sent=134 tag=CRITICAL latencyMs=4.699
 Notification received: ACTION for 4
-sent=134 tag=CRITICAL latencyMs=5.206
+sent=135 tag=CRITICAL latencyMs=4.388
 Notification received: ACTION for 4
-sent=135 tag=CRITICAL latencyMs=6.362
+sent=136 tag=CRITICAL latencyMs=3.888
 Notification received: ACTION for 4
-sent=136 tag=CRITICAL latencyMs=4.143
+sent=137 tag=CRITICAL latencyMs=4.890
 Notification received: ACTION for 4
-sent=137 tag=CRITICAL latencyMs=3.841
 Notification received: ACTION for 4
-sent=138 tag=CRITICAL latencyMs=5.423
+sent=138 tag=CRITICAL latencyMs=3.757
 Notification received: ACTION for 4
-sent=139 tag=CRITICAL latencyMs=4.178
+sent=139 tag=CRITICAL latencyMs=4.753
+sent=140 tag=CRITICAL latencyMs=4.406
 Notification received: ACTION for 4
-sent=140 tag=CRITICAL latencyMs=4.163
-sent=141 tag=CRITICAL latencyMs=4.346
 Notification received: ACTION for 4
+sent=141 tag=CRITICAL latencyMs=4.248
 Notification received: ACTION for 4
-sent=142 tag=CRITICAL latencyMs=4.609
+sent=142 tag=CRITICAL latencyMs=4.448
 Notification received: ACTION for 4
-sent=143 tag=CRITICAL latencyMs=4.162
+sent=143 tag=CRITICAL latencyMs=4.844
+sent=144 tag=CRITICAL latencyMs=4.129
 Notification received: ACTION for 4
-sent=144 tag=CRITICAL latencyMs=4.070
 Notification received: ACTION for 4
-sent=145 tag=CRITICAL latencyMs=4.442
+sent=145 tag=CRITICAL latencyMs=3.678
 Notification received: ACTION for 4
-sent=146 tag=CRITICAL latencyMs=3.722
+sent=146 tag=CRITICAL latencyMs=3.719
 Notification received: ACTION for 4
-sent=147 tag=CRITICAL latencyMs=4.055
+sent=147 tag=CRITICAL latencyMs=4.023
 Notification received: ACTION for 4
-sent=148 tag=CRITICAL latencyMs=3.596
+sent=148 tag=CRITICAL latencyMs=4.694
 Notification received: ACTION for 4
-sent=149 tag=CRITICAL latencyMs=3.658
+sent=149 tag=CRITICAL latencyMs=4.958
 Notification received: ACTION for 4
-sent=150 tag=CRITICAL latencyMs=3.876
+sent=150 tag=CRITICAL latencyMs=3.697
 Notification received: ACTION for 4
-sent=151 tag=CRITICAL latencyMs=9.819
+sent=151 tag=CRITICAL latencyMs=3.386
 Notification received: ACTION for 4
-sent=152 tag=CRITICAL latencyMs=4.017
+sent=152 tag=CRITICAL latencyMs=3.868
 Notification received: ACTION for 4
-sent=153 tag=CRITICAL latencyMs=4.929
+sent=153 tag=CRITICAL latencyMs=3.612
 Notification received: ACTION for 4
-sent=154 tag=CRITICAL latencyMs=4.303
+sent=154 tag=CRITICAL latencyMs=3.876
 Notification received: ACTION for 4
-sent=155 tag=CRITICAL latencyMs=4.122
+sent=155 tag=CRITICAL latencyMs=4.564
 Notification received: ACTION for 4
-sent=156 tag=CRITICAL latencyMs=4.678
+sent=156 tag=CRITICAL latencyMs=4.668
 Notification received: ACTION for 4
-sent=157 tag=CRITICAL latencyMs=4.045
+sent=157 tag=CRITICAL latencyMs=4.735
 Notification received: ACTION for 4
-sent=158 tag=CRITICAL latencyMs=4.047
+sent=158 tag=CRITICAL latencyMs=5.072
 Notification received: ACTION for 4
-sent=159 tag=CRITICAL latencyMs=4.413
+sent=159 tag=CRITICAL latencyMs=3.614
 Notification received: ACTION for 4
-sent=160 tag=CRITICAL latencyMs=4.940
+sent=160 tag=CRITICAL latencyMs=4.516
 Notification received: ACTION for 4
-sent=161 tag=CRITICAL latencyMs=3.574
+sent=161 tag=CRITICAL latencyMs=3.617
+sent=162 tag=CRITICAL latencyMs=4.075
 Notification received: ACTION for 4
-sent=162 tag=CRITICAL latencyMs=4.301
 Notification received: ACTION for 4
-sent=163 tag=CRITICAL latencyMs=3.503
+sent=163 tag=CRITICAL latencyMs=3.531
+sent=164 tag=CRITICAL latencyMs=3.472
 Notification received: ACTION for 4
-sent=164 tag=CRITICAL latencyMs=6.386
 Notification received: ACTION for 4
-sent=165 tag=CRITICAL latencyMs=3.580
+sent=165 tag=CRITICAL latencyMs=4.533
 Notification received: ACTION for 4
-sent=166 tag=CRITICAL latencyMs=9.534
+sent=166 tag=CRITICAL latencyMs=4.316
 Notification received: ACTION for 4
-sent=167 tag=CRITICAL latencyMs=3.657
+sent=167 tag=CRITICAL latencyMs=4.553
 Notification received: ACTION for 4
-sent=168 tag=CRITICAL latencyMs=3.640
+sent=168 tag=CRITICAL latencyMs=5.684
+sent=169 tag=CRITICAL latencyMs=4.272
 Notification received: ACTION for 4
-sent=169 tag=CRITICAL latencyMs=3.811
 Notification received: ACTION for 4
-sent=170 tag=CRITICAL latencyMs=3.563
+sent=170 tag=CRITICAL latencyMs=5.390
 Notification received: ACTION for 4
-sent=171 tag=CRITICAL latencyMs=5.134
+sent=171 tag=CRITICAL latencyMs=3.473
+sent=172 tag=CRITICAL latencyMs=8.868
 Notification received: ACTION for 4
-sent=172 tag=CRITICAL latencyMs=3.371
-sent=173 tag=CRITICAL latencyMs=3.230
 Notification received: ACTION for 4
+sent=173 tag=CRITICAL latencyMs=10.267
 Notification received: ACTION for 4
-sent=174 tag=CRITICAL latencyMs=3.377
+sent=174 tag=CRITICAL latencyMs=5.085
 Notification received: ACTION for 4
-sent=175 tag=CRITICAL latencyMs=3.308
+sent=175 tag=CRITICAL latencyMs=3.691
 Notification received: ACTION for 4
-sent=176 tag=CRITICAL latencyMs=3.282
+sent=176 tag=CRITICAL latencyMs=3.558
 Notification received: ACTION for 4
-sent=177 tag=CRITICAL latencyMs=3.716
+sent=177 tag=CRITICAL latencyMs=4.662
+sent=178 tag=CRITICAL latencyMs=4.401
 Notification received: ACTION for 4
-sent=178 tag=CRITICAL latencyMs=4.187
-sent=179 tag=CRITICAL latencyMs=4.642
 Notification received: ACTION for 4
+sent=179 tag=CRITICAL latencyMs=3.481
+sent=180 tag=CRITICAL latencyMs=6.531
 Notification received: ACTION for 4
-sent=180 tag=CRITICAL latencyMs=3.745
 Notification received: ACTION for 4
-sent=181 tag=CRITICAL latencyMs=4.655
+sent=181 tag=CRITICAL latencyMs=3.416
+sent=182 tag=CRITICAL latencyMs=3.714
 Notification received: ACTION for 4
-sent=182 tag=CRITICAL latencyMs=7.273
+sent=183 tag=CRITICAL latencyMs=3.544
 Notification received: ACTION for 4
-sent=183 tag=CRITICAL latencyMs=6.991
 Notification received: ACTION for 4
-sent=184 tag=CRITICAL latencyMs=3.573
+sent=184 tag=CRITICAL latencyMs=3.478
+sent=185 tag=CRITICAL latencyMs=3.952
 Notification received: ACTION for 4
-sent=185 tag=CRITICAL latencyMs=4.074
+sent=186 tag=CRITICAL latencyMs=3.375
 Notification received: ACTION for 4
-sent=186 tag=CRITICAL latencyMs=3.953
-sent=187 tag=CRITICAL latencyMs=4.188
+sent=187 tag=CRITICAL latencyMs=4.030
 Notification received: ACTION for 4
-sent=188 tag=CRITICAL latencyMs=3.934
 Notification received: ACTION for 4
+sent=188 tag=CRITICAL latencyMs=3.603
 Notification received: ACTION for 4
-sent=189 tag=CRITICAL latencyMs=5.189
+sent=189 tag=CRITICAL latencyMs=4.060
 Notification received: ACTION for 4
-sent=190 tag=CRITICAL latencyMs=5.416
+sent=190 tag=CRITICAL latencyMs=5.031
 Notification received: ACTION for 4
-sent=191 tag=CRITICAL latencyMs=5.021
+sent=191 tag=CRITICAL latencyMs=12.028
 Notification received: ACTION for 4
-sent=192 tag=CRITICAL latencyMs=4.357
-sent=193 tag=CRITICAL latencyMs=5.973
+sent=192 tag=CRITICAL latencyMs=4.399
+sent=193 tag=CRITICAL latencyMs=3.532
 Notification received: ACTION for 4
-sent=194 tag=CRITICAL latencyMs=4.446
 Notification received: ACTION for 4
+sent=194 tag=CRITICAL latencyMs=4.130
 Notification received: ACTION for 4
-sent=195 tag=CRITICAL latencyMs=3.742
+sent=195 tag=CRITICAL latencyMs=4.441
 Notification received: ACTION for 4
-sent=196 tag=CRITICAL latencyMs=3.622
-sent=197 tag=CRITICAL latencyMs=4.128
+sent=196 tag=CRITICAL latencyMs=4.351
+sent=197 tag=CRITICAL latencyMs=3.645
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=198 tag=CRITICAL latencyMs=3.947
-sent=199 tag=CRITICAL latencyMs=4.943
+sent=198 tag=CRITICAL latencyMs=3.553
 Notification received: ACTION for 4
+sent=199 tag=CRITICAL latencyMs=4.041
 Notification received: ACTION for 4
-sent=200 tag=CRITICAL latencyMs=4.870
-sent=201 tag=CRITICAL latencyMs=5.677
+sent=200 tag=CRITICAL latencyMs=3.849
 Notification received: ACTION for 4
+sent=201 tag=CRITICAL latencyMs=4.121
 Notification received: ACTION for 4
-sent=202 tag=CRITICAL latencyMs=3.210
-sent=203 tag=CRITICAL latencyMs=4.018
+sent=202 tag=CRITICAL latencyMs=3.629
 Notification received: ACTION for 4
+sent=203 tag=CRITICAL latencyMs=3.755
 Notification received: ACTION for 4
-sent=204 tag=CRITICAL latencyMs=3.801
+sent=204 tag=CRITICAL latencyMs=3.891
 Notification received: ACTION for 4
-sent=205 tag=CRITICAL latencyMs=6.673
+sent=205 tag=CRITICAL latencyMs=3.272
 Notification received: ACTION for 4
-sent=206 tag=CRITICAL latencyMs=4.725
+sent=206 tag=CRITICAL latencyMs=3.885
 Notification received: ACTION for 4
-sent=207 tag=CRITICAL latencyMs=5.025
+sent=207 tag=CRITICAL latencyMs=5.197
 Notification received: ACTION for 4
-sent=208 tag=CRITICAL latencyMs=3.427
+sent=208 tag=CRITICAL latencyMs=5.426
 Notification received: ACTION for 4
-sent=209 tag=CRITICAL latencyMs=3.857
+sent=209 tag=CRITICAL latencyMs=6.424
 Notification received: ACTION for 4
-sent=210 tag=CRITICAL latencyMs=3.790
-sent=211 tag=CRITICAL latencyMs=3.337
+sent=210 tag=CRITICAL latencyMs=3.609
 Notification received: ACTION for 4
+sent=211 tag=CRITICAL latencyMs=3.338
 Notification received: ACTION for 4
-sent=212 tag=CRITICAL latencyMs=12.922
-sent=213 tag=CRITICAL latencyMs=3.371
+sent=212 tag=CRITICAL latencyMs=3.940
 Notification received: ACTION for 4
-sent=214 tag=CRITICAL latencyMs=3.404
+sent=213 tag=CRITICAL latencyMs=4.824
 Notification received: ACTION for 4
+sent=214 tag=CRITICAL latencyMs=4.136
 Notification received: ACTION for 4
-sent=215 tag=CRITICAL latencyMs=4.040
-sent=216 tag=CRITICAL latencyMs=3.832
+sent=215 tag=CRITICAL latencyMs=3.621
 Notification received: ACTION for 4
-sent=217 tag=CRITICAL latencyMs=3.519
+sent=216 tag=CRITICAL latencyMs=3.852
 Notification received: ACTION for 4
+sent=217 tag=CRITICAL latencyMs=3.677
 Notification received: ACTION for 4
-sent=218 tag=CRITICAL latencyMs=3.794
+sent=218 tag=CRITICAL latencyMs=3.738
 Notification received: ACTION for 4
-sent=219 tag=CRITICAL latencyMs=3.156
+sent=219 tag=CRITICAL latencyMs=6.931
 Notification received: ACTION for 4
-sent=220 tag=CRITICAL latencyMs=3.541
+sent=220 tag=CRITICAL latencyMs=4.037
 Notification received: ACTION for 4
-sent=221 tag=CRITICAL latencyMs=3.722
-sent=222 tag=CRITICAL latencyMs=3.629
+sent=221 tag=CRITICAL latencyMs=3.633
 Notification received: ACTION for 4
-sent=223 tag=CRITICAL latencyMs=5.264
+sent=222 tag=CRITICAL latencyMs=3.640
 Notification received: ACTION for 4
-sent=224 tag=CRITICAL latencyMs=8.377
+sent=223 tag=CRITICAL latencyMs=3.672
+sent=224 tag=CRITICAL latencyMs=4.507
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=225 tag=CRITICAL latencyMs=3.399
+sent=225 tag=CRITICAL latencyMs=6.732
 Notification received: ACTION for 4
-sent=226 tag=CRITICAL latencyMs=3.299
+sent=226 tag=CRITICAL latencyMs=4.634
 Notification received: ACTION for 4
-sent=227 tag=CRITICAL latencyMs=3.731
+sent=227 tag=CRITICAL latencyMs=12.729
 Notification received: ACTION for 4
-sent=228 tag=CRITICAL latencyMs=4.160
+sent=228 tag=CRITICAL latencyMs=17.346
 Notification received: ACTION for 4
-sent=229 tag=CRITICAL latencyMs=4.320
+sent=229 tag=CRITICAL latencyMs=6.799
 Notification received: ACTION for 4
-sent=230 tag=CRITICAL latencyMs=4.274
-sent=231 tag=CRITICAL latencyMs=4.094
+sent=230 tag=CRITICAL latencyMs=4.214
+sent=231 tag=CRITICAL latencyMs=3.763
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=232 tag=CRITICAL latencyMs=3.471
+sent=232 tag=CRITICAL latencyMs=3.998
 Notification received: ACTION for 4
-sent=233 tag=CRITICAL latencyMs=3.762
+sent=233 tag=CRITICAL latencyMs=4.906
 Notification received: ACTION for 4
-sent=234 tag=CRITICAL latencyMs=4.256
-sent=235 tag=CRITICAL latencyMs=5.068
+sent=234 tag=CRITICAL latencyMs=4.645
+sent=235 tag=CRITICAL latencyMs=11.361
 Notification received: ACTION for 4
-sent=236 tag=CRITICAL latencyMs=3.931
+sent=236 tag=CRITICAL latencyMs=4.767
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=237 tag=CRITICAL latencyMs=4.013
+sent=237 tag=CRITICAL latencyMs=4.264
 Notification received: ACTION for 4
-sent=238 tag=CRITICAL latencyMs=3.659
-sent=239 tag=CRITICAL latencyMs=4.800
+sent=238 tag=CRITICAL latencyMs=3.529
+sent=239 tag=CRITICAL latencyMs=4.324
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=240 tag=CRITICAL latencyMs=3.834
+sent=240 tag=CRITICAL latencyMs=4.236
 Notification received: ACTION for 4
-sent=241 tag=CRITICAL latencyMs=4.001
+sent=241 tag=CRITICAL latencyMs=5.671
 Notification received: ACTION for 4
-sent=242 tag=CRITICAL latencyMs=4.511
+sent=242 tag=CRITICAL latencyMs=4.252
 Notification received: ACTION for 4
-sent=243 tag=CRITICAL latencyMs=3.640
-sent=244 tag=CRITICAL latencyMs=3.154
+sent=243 tag=CRITICAL latencyMs=4.155
 Notification received: ACTION for 4
+sent=244 tag=CRITICAL latencyMs=5.356
 Notification received: ACTION for 4
-sent=245 tag=CRITICAL latencyMs=3.388
-sent=246 tag=CRITICAL latencyMs=4.210
+sent=245 tag=CRITICAL latencyMs=4.412
+sent=246 tag=CRITICAL latencyMs=4.231
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=247 tag=CRITICAL latencyMs=3.810
+sent=247 tag=CRITICAL latencyMs=3.678
 Notification received: ACTION for 4
-sent=248 tag=CRITICAL latencyMs=3.717
+sent=248 tag=CRITICAL latencyMs=5.690
 Notification received: ACTION for 4
-sent=249 tag=CRITICAL latencyMs=4.169
+sent=249 tag=CRITICAL latencyMs=4.081
+sent=250 tag=CRITICAL latencyMs=3.648
 Notification received: ACTION for 4
-sent=250 tag=CRITICAL latencyMs=3.540
-sent=251 tag=CRITICAL latencyMs=3.992
+sent=251 tag=CRITICAL latencyMs=3.629
 Notification received: ACTION for 4
+sent=252 tag=CRITICAL latencyMs=4.195
 Notification received: ACTION for 4
-sent=252 tag=CRITICAL latencyMs=4.399
 Notification received: ACTION for 4
-sent=253 tag=CRITICAL latencyMs=7.339
+sent=253 tag=CRITICAL latencyMs=3.555
 Notification received: ACTION for 4
-sent=254 tag=CRITICAL latencyMs=35.571
+sent=254 tag=CRITICAL latencyMs=10.522
 Notification received: ACTION for 4
-sent=255 tag=CRITICAL latencyMs=5.054
-sent=256 tag=CRITICAL latencyMs=3.835
+sent=255 tag=CRITICAL latencyMs=4.891
+sent=256 tag=CRITICAL latencyMs=3.849
 Notification received: ACTION for 4
-sent=257 tag=CRITICAL latencyMs=3.976
+sent=257 tag=CRITICAL latencyMs=4.265
 Notification received: ACTION for 4
-sent=258 tag=CRITICAL latencyMs=3.471
+sent=258 tag=CRITICAL latencyMs=4.207
 Notification received: ACTION for 4
-sent=259 tag=CRITICAL latencyMs=5.469
+sent=259 tag=CRITICAL latencyMs=3.643
 Notification received: ACTION for 4
-sent=260 tag=CRITICAL latencyMs=3.417
 Notification received: ACTION for 4
-sent=261 tag=CRITICAL latencyMs=3.295
+sent=260 tag=CRITICAL latencyMs=4.431
+sent=261 tag=CRITICAL latencyMs=4.045
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=262 tag=CRITICAL latencyMs=3.578
-sent=263 tag=CRITICAL latencyMs=3.506
+sent=262 tag=CRITICAL latencyMs=3.408
 Notification received: ACTION for 4
+sent=263 tag=CRITICAL latencyMs=4.554
 Notification received: ACTION for 4
-sent=264 tag=CRITICAL latencyMs=3.356
+sent=264 tag=CRITICAL latencyMs=4.699
 Notification received: ACTION for 4
-sent=265 tag=CRITICAL latencyMs=3.486
-sent=266 tag=CRITICAL latencyMs=4.176
+sent=265 tag=CRITICAL latencyMs=5.928
 Notification received: ACTION for 4
+sent=266 tag=CRITICAL latencyMs=3.984
 Notification received: ACTION for 4
-sent=267 tag=CRITICAL latencyMs=3.711
+sent=267 tag=CRITICAL latencyMs=3.715
+sent=268 tag=CRITICAL latencyMs=3.560
 Notification received: ACTION for 4
-sent=268 tag=CRITICAL latencyMs=4.028
-sent=269 tag=CRITICAL latencyMs=3.788
 Notification received: ACTION for 4
-sent=270 tag=CRITICAL latencyMs=5.127
+sent=269 tag=CRITICAL latencyMs=3.577
 Notification received: ACTION for 4
+sent=270 tag=CRITICAL latencyMs=4.396
 Notification received: ACTION for 4
-sent=271 tag=CRITICAL latencyMs=6.061
-sent=272 tag=CRITICAL latencyMs=6.359
+sent=271 tag=CRITICAL latencyMs=4.972
+sent=272 tag=CRITICAL latencyMs=3.378
 Notification received: ACTION for 4
+sent=273 tag=CRITICAL latencyMs=3.372
 Notification received: ACTION for 4
-sent=273 tag=CRITICAL latencyMs=4.492
 Notification received: ACTION for 4
-sent=274 tag=CRITICAL latencyMs=6.659
-sent=275 tag=CRITICAL latencyMs=3.829
+sent=274 tag=CRITICAL latencyMs=3.598
+sent=275 tag=CRITICAL latencyMs=3.483
 Notification received: ACTION for 4
-sent=276 tag=CRITICAL latencyMs=4.070
 Notification received: ACTION for 4
+sent=276 tag=CRITICAL latencyMs=3.403
+sent=277 tag=CRITICAL latencyMs=4.914
 Notification received: ACTION for 4
-sent=277 tag=CRITICAL latencyMs=3.815
-sent=278 tag=CRITICAL latencyMs=3.929
 Notification received: ACTION for 4
+sent=278 tag=CRITICAL latencyMs=5.237
+sent=279 tag=CRITICAL latencyMs=3.798
 Notification received: ACTION for 4
-sent=279 tag=CRITICAL latencyMs=4.681
+sent=280 tag=CRITICAL latencyMs=3.889
 Notification received: ACTION for 4
-sent=280 tag=CRITICAL latencyMs=4.745
-sent=281 tag=CRITICAL latencyMs=4.379
+sent=281 tag=CRITICAL latencyMs=3.455
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=282 tag=CRITICAL latencyMs=5.453
+sent=282 tag=CRITICAL latencyMs=4.574
+sent=283 tag=CRITICAL latencyMs=3.930
 Notification received: ACTION for 4
-sent=283 tag=CRITICAL latencyMs=3.894
 Notification received: ACTION for 4
-sent=284 tag=CRITICAL latencyMs=5.226
+sent=284 tag=CRITICAL latencyMs=5.994
 Notification received: ACTION for 4
-sent=285 tag=CRITICAL latencyMs=3.837
+sent=285 tag=CRITICAL latencyMs=4.023
 Notification received: ACTION for 4
-sent=286 tag=CRITICAL latencyMs=3.773
+sent=286 tag=CRITICAL latencyMs=3.453
 Notification received: ACTION for 4
-sent=287 tag=CRITICAL latencyMs=3.624
+sent=287 tag=CRITICAL latencyMs=3.939
 Notification received: ACTION for 4
-sent=288 tag=CRITICAL latencyMs=4.810
+sent=288 tag=CRITICAL latencyMs=5.865
 Notification received: ACTION for 4
-sent=289 tag=CRITICAL latencyMs=4.486
-sent=290 tag=CRITICAL latencyMs=3.504
+sent=289 tag=CRITICAL latencyMs=6.831
 Notification received: ACTION for 4
-sent=291 tag=CRITICAL latencyMs=3.411
+sent=290 tag=CRITICAL latencyMs=3.825
 Notification received: ACTION for 4
-sent=292 tag=CRITICAL latencyMs=6.776
+sent=291 tag=CRITICAL latencyMs=7.847
 Notification received: ACTION for 4
-sent=293 tag=CRITICAL latencyMs=4.018
+sent=292 tag=CRITICAL latencyMs=4.478
 Notification received: ACTION for 4
+sent=293 tag=CRITICAL latencyMs=3.690
 Notification received: ACTION for 4
-sent=294 tag=CRITICAL latencyMs=3.897
+sent=294 tag=CRITICAL latencyMs=3.526
 Notification received: ACTION for 4
-sent=295 tag=CRITICAL latencyMs=3.819
+sent=295 tag=CRITICAL latencyMs=3.796
 Notification received: ACTION for 4
-sent=296 tag=CRITICAL latencyMs=4.646
+sent=296 tag=CRITICAL latencyMs=5.182
 Notification received: ACTION for 4
-sent=297 tag=CRITICAL latencyMs=3.422
-sent=298 tag=CRITICAL latencyMs=4.039
+sent=297 tag=CRITICAL latencyMs=4.511
 Notification received: ACTION for 4
-sent=299 tag=CRITICAL latencyMs=4.301
+sent=298 tag=CRITICAL latencyMs=10.813
 Notification received: ACTION for 4
+sent=299 tag=CRITICAL latencyMs=4.644
 Notification received: ACTION for 4
-sent=300 tag=CRITICAL latencyMs=3.749
+sent=300 tag=CRITICAL latencyMs=4.248
 Notification received: ACTION for 4
-sent=301 tag=CRITICAL latencyMs=4.645
+sent=301 tag=CRITICAL latencyMs=4.226
 Notification received: ACTION for 4
-sent=302 tag=CRITICAL latencyMs=3.971
+sent=302 tag=CRITICAL latencyMs=4.296
 Notification received: ACTION for 4
-sent=303 tag=CRITICAL latencyMs=5.024
+sent=303 tag=CRITICAL latencyMs=4.634
 Notification received: ACTION for 4
-sent=304 tag=CRITICAL latencyMs=4.023
+sent=304 tag=CRITICAL latencyMs=3.576
 Notification received: ACTION for 4
-sent=305 tag=CRITICAL latencyMs=4.307
+sent=305 tag=CRITICAL latencyMs=3.787
 Notification received: ACTION for 4
-sent=306 tag=CRITICAL latencyMs=6.829
+sent=306 tag=CRITICAL latencyMs=4.056
 Notification received: ACTION for 4
-sent=307 tag=CRITICAL latencyMs=3.674
+sent=307 tag=CRITICAL latencyMs=4.632
 Notification received: ACTION for 4
-sent=308 tag=CRITICAL latencyMs=4.513
+sent=308 tag=CRITICAL latencyMs=3.774
 Notification received: ACTION for 4
-sent=309 tag=CRITICAL latencyMs=4.064
+sent=309 tag=CRITICAL latencyMs=4.191
+sent=310 tag=CRITICAL latencyMs=3.897
 Notification received: ACTION for 4
-sent=310 tag=CRITICAL latencyMs=4.419
 Notification received: ACTION for 4
-sent=311 tag=CRITICAL latencyMs=3.909
+sent=311 tag=CRITICAL latencyMs=3.670
 Notification received: ACTION for 4
-sent=312 tag=CRITICAL latencyMs=3.172
-sent=313 tag=CRITICAL latencyMs=5.002
+sent=312 tag=CRITICAL latencyMs=3.862
 Notification received: ACTION for 4
-sent=314 tag=CRITICAL latencyMs=4.577
+sent=313 tag=CRITICAL latencyMs=4.323
 Notification received: ACTION for 4
+sent=314 tag=CRITICAL latencyMs=4.091
 Notification received: ACTION for 4
-sent=315 tag=CRITICAL latencyMs=5.464
+sent=315 tag=CRITICAL latencyMs=4.235
 Notification received: ACTION for 4
-sent=316 tag=CRITICAL latencyMs=3.689
+sent=316 tag=CRITICAL latencyMs=5.034
 Notification received: ACTION for 4
-sent=317 tag=CRITICAL latencyMs=3.943
-sent=318 tag=CRITICAL latencyMs=4.643
+sent=317 tag=CRITICAL latencyMs=4.421
 Notification received: ACTION for 4
+sent=318 tag=CRITICAL latencyMs=3.223
 Notification received: ACTION for 4
-sent=319 tag=CRITICAL latencyMs=3.680
-sent=320 tag=CRITICAL latencyMs=4.635
+sent=319 tag=CRITICAL latencyMs=3.400
 Notification received: ACTION for 4
-sent=321 tag=CRITICAL latencyMs=4.113
+sent=320 tag=CRITICAL latencyMs=3.543
 Notification received: ACTION for 4
+sent=321 tag=CRITICAL latencyMs=4.047
 Notification received: ACTION for 4
-sent=322 tag=CRITICAL latencyMs=3.227
+sent=322 tag=CRITICAL latencyMs=4.100
 Notification received: ACTION for 4
-sent=323 tag=CRITICAL latencyMs=4.587
+sent=323 tag=CRITICAL latencyMs=3.996
 Notification received: ACTION for 4
-sent=324 tag=CRITICAL latencyMs=4.190
+sent=324 tag=CRITICAL latencyMs=5.489
 Notification received: ACTION for 4
-sent=325 tag=CRITICAL latencyMs=3.557
+sent=325 tag=CRITICAL latencyMs=4.260
 Notification received: ACTION for 4
-sent=326 tag=CRITICAL latencyMs=5.115
+sent=326 tag=CRITICAL latencyMs=4.016
 Notification received: ACTION for 4
-sent=327 tag=CRITICAL latencyMs=5.227
+sent=327 tag=CRITICAL latencyMs=4.939
 Notification received: ACTION for 4
-sent=328 tag=CRITICAL latencyMs=3.518
+sent=328 tag=CRITICAL latencyMs=5.667
 Notification received: ACTION for 4
-sent=329 tag=CRITICAL latencyMs=3.726
+sent=329 tag=CRITICAL latencyMs=3.499
 Notification received: ACTION for 4
-sent=330 tag=CRITICAL latencyMs=3.302
+sent=330 tag=CRITICAL latencyMs=4.551
 Notification received: ACTION for 4
-sent=331 tag=CRITICAL latencyMs=3.363
+sent=331 tag=CRITICAL latencyMs=3.631
 Notification received: ACTION for 4
-sent=332 tag=CRITICAL latencyMs=3.429
+sent=332 tag=CRITICAL latencyMs=3.320
+sent=333 tag=CRITICAL latencyMs=4.537
 Notification received: ACTION for 4
-sent=333 tag=CRITICAL latencyMs=3.552
 Notification received: ACTION for 4
-sent=334 tag=CRITICAL latencyMs=3.324
+sent=334 tag=CRITICAL latencyMs=3.903
 Notification received: ACTION for 4
-sent=335 tag=CRITICAL latencyMs=3.623
+sent=335 tag=CRITICAL latencyMs=3.851
 Notification received: ACTION for 4
-sent=336 tag=CRITICAL latencyMs=5.283
+sent=336 tag=CRITICAL latencyMs=5.266
 Notification received: ACTION for 4
-sent=337 tag=CRITICAL latencyMs=4.024
+sent=337 tag=CRITICAL latencyMs=4.602
+sent=338 tag=CRITICAL latencyMs=3.968
 Notification received: ACTION for 4
-sent=338 tag=CRITICAL latencyMs=3.527
+sent=339 tag=CRITICAL latencyMs=4.408
 Notification received: ACTION for 4
-sent=339 tag=CRITICAL latencyMs=4.308
+sent=340 tag=CRITICAL latencyMs=5.150
 Notification received: ACTION for 4
-sent=340 tag=CRITICAL latencyMs=3.547
 Notification received: ACTION for 4
-sent=341 tag=CRITICAL latencyMs=3.579
+sent=341 tag=CRITICAL latencyMs=3.562
 Notification received: ACTION for 4
-sent=342 tag=CRITICAL latencyMs=3.504
+sent=342 tag=CRITICAL latencyMs=4.104
 Notification received: ACTION for 4
-sent=343 tag=CRITICAL latencyMs=3.461
+sent=343 tag=CRITICAL latencyMs=4.852
 Notification received: ACTION for 4
-sent=344 tag=CRITICAL latencyMs=3.814
+sent=344 tag=CRITICAL latencyMs=3.583
 Notification received: ACTION for 4
-sent=345 tag=CRITICAL latencyMs=8.779
+sent=345 tag=CRITICAL latencyMs=3.895
 Notification received: ACTION for 4
-sent=346 tag=CRITICAL latencyMs=4.712
+sent=346 tag=CRITICAL latencyMs=3.192
 Notification received: ACTION for 4
-sent=347 tag=CRITICAL latencyMs=3.664
-sent=348 tag=CRITICAL latencyMs=3.502
+sent=347 tag=CRITICAL latencyMs=5.391
 Notification received: ACTION for 4
+sent=348 tag=CRITICAL latencyMs=3.388
 Notification received: ACTION for 4
-sent=349 tag=CRITICAL latencyMs=3.761
+sent=349 tag=CRITICAL latencyMs=3.488
 Notification received: ACTION for 4
-sent=350 tag=CRITICAL latencyMs=3.444
-sent=351 tag=CRITICAL latencyMs=3.732
+sent=350 tag=CRITICAL latencyMs=6.089
 Notification received: ACTION for 4
-sent=352 tag=CRITICAL latencyMs=5.173
+sent=351 tag=CRITICAL latencyMs=3.942
 Notification received: ACTION for 4
+sent=352 tag=CRITICAL latencyMs=5.811
+sent=353 tag=CRITICAL latencyMs=4.199
 Notification received: ACTION for 4
-sent=353 tag=CRITICAL latencyMs=3.129
 Notification received: ACTION for 4
-sent=354 tag=CRITICAL latencyMs=3.338
+sent=354 tag=CRITICAL latencyMs=3.576
 Notification received: ACTION for 4
-sent=355 tag=CRITICAL latencyMs=3.337
+sent=355 tag=CRITICAL latencyMs=3.752
 Notification received: ACTION for 4
-sent=356 tag=CRITICAL latencyMs=3.878
+sent=356 tag=CRITICAL latencyMs=4.372
 Notification received: ACTION for 4
-sent=357 tag=CRITICAL latencyMs=3.589
-sent=358 tag=CRITICAL latencyMs=3.181
+sent=357 tag=CRITICAL latencyMs=3.667
 Notification received: ACTION for 4
-sent=359 tag=CRITICAL latencyMs=6.243
+sent=358 tag=CRITICAL latencyMs=3.926
+sent=359 tag=CRITICAL latencyMs=5.017
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=360 tag=CRITICAL latencyMs=4.182
-sent=361 tag=CRITICAL latencyMs=3.465
+sent=360 tag=CRITICAL latencyMs=4.463
 Notification received: ACTION for 4
+sent=361 tag=CRITICAL latencyMs=4.734
 Notification received: ACTION for 4
-sent=362 tag=CRITICAL latencyMs=3.748
+sent=362 tag=CRITICAL latencyMs=3.815
 Notification received: ACTION for 4
-sent=363 tag=CRITICAL latencyMs=3.723
+sent=363 tag=CRITICAL latencyMs=24.709
 Notification received: ACTION for 4
-sent=364 tag=CRITICAL latencyMs=4.006
+sent=364 tag=CRITICAL latencyMs=4.215
 Notification received: ACTION for 4
-sent=365 tag=CRITICAL latencyMs=5.354
-sent=366 tag=CRITICAL latencyMs=4.190
+sent=365 tag=CRITICAL latencyMs=6.249
 Notification received: ACTION for 4
+sent=366 tag=CRITICAL latencyMs=5.381
 Notification received: ACTION for 4
-sent=367 tag=CRITICAL latencyMs=3.562
-sent=368 tag=CRITICAL latencyMs=3.315
+sent=367 tag=CRITICAL latencyMs=5.206
 Notification received: ACTION for 4
-sent=369 tag=CRITICAL latencyMs=3.324
+sent=368 tag=CRITICAL latencyMs=4.150
 Notification received: ACTION for 4
-sent=370 tag=CRITICAL latencyMs=3.261
+sent=369 tag=CRITICAL latencyMs=3.825
 Notification received: ACTION for 4
-sent=371 tag=CRITICAL latencyMs=3.403
+sent=370 tag=CRITICAL latencyMs=3.476
 Notification received: ACTION for 4
-sent=372 tag=CRITICAL latencyMs=4.013
+sent=371 tag=CRITICAL latencyMs=4.166
 Notification received: ACTION for 4
-sent=373 tag=CRITICAL latencyMs=4.130
+sent=372 tag=CRITICAL latencyMs=3.607
 Notification received: ACTION for 4
-sent=374 tag=CRITICAL latencyMs=4.701
+sent=373 tag=CRITICAL latencyMs=3.193
 Notification received: ACTION for 4
-sent=375 tag=CRITICAL latencyMs=5.813
+sent=374 tag=CRITICAL latencyMs=4.009
 Notification received: ACTION for 4
-sent=376 tag=CRITICAL latencyMs=6.130
+sent=375 tag=CRITICAL latencyMs=4.925
 Notification received: ACTION for 4
+sent=376 tag=CRITICAL latencyMs=3.884
+sent=377 tag=CRITICAL latencyMs=3.495
 Notification received: ACTION for 4
-sent=377 tag=CRITICAL latencyMs=13.913
 Notification received: ACTION for 4
-sent=378 tag=CRITICAL latencyMs=4.662
-sent=379 tag=CRITICAL latencyMs=3.760
+sent=378 tag=CRITICAL latencyMs=4.320
+sent=379 tag=CRITICAL latencyMs=3.534
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=380 tag=CRITICAL latencyMs=4.153
+sent=380 tag=CRITICAL latencyMs=3.556
 Notification received: ACTION for 4
-sent=381 tag=CRITICAL latencyMs=4.601
+sent=381 tag=CRITICAL latencyMs=9.065
 Notification received: ACTION for 4
-sent=382 tag=CRITICAL latencyMs=3.789
+sent=382 tag=CRITICAL latencyMs=10.273
 Notification received: ACTION for 4
-sent=383 tag=CRITICAL latencyMs=3.695
+sent=383 tag=CRITICAL latencyMs=6.755
 Notification received: ACTION for 4
-sent=384 tag=CRITICAL latencyMs=4.280
+sent=384 tag=CRITICAL latencyMs=11.921
+sent=385 tag=CRITICAL latencyMs=4.520
 Notification received: ACTION for 4
-sent=385 tag=CRITICAL latencyMs=4.069
+sent=386 tag=CRITICAL latencyMs=8.063
 Notification received: ACTION for 4
-sent=386 tag=CRITICAL latencyMs=3.897
 Notification received: ACTION for 4
-sent=387 tag=CRITICAL latencyMs=6.943
+sent=387 tag=CRITICAL latencyMs=6.327
+sent=388 tag=CRITICAL latencyMs=3.244
 Notification received: ACTION for 4
-sent=388 tag=CRITICAL latencyMs=3.757
-sent=389 tag=CRITICAL latencyMs=3.950
 Notification received: ACTION for 4
-sent=390 tag=CRITICAL latencyMs=3.744
+sent=389 tag=CRITICAL latencyMs=3.860
 Notification received: ACTION for 4
+sent=390 tag=CRITICAL latencyMs=9.678
+sent=391 tag=CRITICAL latencyMs=4.112
 Notification received: ACTION for 4
-sent=391 tag=CRITICAL latencyMs=4.347
 Notification received: ACTION for 4
-sent=392 tag=CRITICAL latencyMs=3.700
+sent=392 tag=CRITICAL latencyMs=6.987
 Notification received: ACTION for 4
-sent=393 tag=CRITICAL latencyMs=3.170
+sent=393 tag=CRITICAL latencyMs=3.982
 Notification received: ACTION for 4
-sent=394 tag=CRITICAL latencyMs=3.232
+sent=394 tag=CRITICAL latencyMs=3.507
 Notification received: ACTION for 4
-sent=395 tag=CRITICAL latencyMs=4.163
-sent=396 tag=CRITICAL latencyMs=3.963
+sent=395 tag=CRITICAL latencyMs=4.077
 Notification received: ACTION for 4
+sent=396 tag=CRITICAL latencyMs=3.917
+sent=397 tag=CRITICAL latencyMs=3.729
 Notification received: ACTION for 4
-sent=397 tag=CRITICAL latencyMs=3.461
+sent=398 tag=CRITICAL latencyMs=3.847
 Notification received: ACTION for 4
-sent=398 tag=CRITICAL latencyMs=4.347
+sent=399 tag=CRITICAL latencyMs=3.605
 Notification received: ACTION for 4
-sent=399 tag=CRITICAL latencyMs=4.614
+sent=400 tag=CRITICAL latencyMs=3.519
 Notification received: ACTION for 4
-sent=400 tag=CRITICAL latencyMs=5.526
-sent=401 tag=CRITICAL latencyMs=10.060
+sent=401 tag=CRITICAL latencyMs=3.709
 Notification received: ACTION for 4
-sent=402 tag=CRITICAL latencyMs=19.763
+sent=402 tag=CRITICAL latencyMs=3.900
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=403 tag=CRITICAL latencyMs=6.282
-sent=404 tag=CRITICAL latencyMs=4.470
+sent=403 tag=CRITICAL latencyMs=6.870
 Notification received: ACTION for 4
-sent=405 tag=CRITICAL latencyMs=5.125
+sent=404 tag=CRITICAL latencyMs=3.803
 Notification received: ACTION for 4
-sent=406 tag=CRITICAL latencyMs=4.084
+sent=405 tag=CRITICAL latencyMs=3.176
 Notification received: ACTION for 4
+sent=406 tag=CRITICAL latencyMs=3.121
 Notification received: ACTION for 4
-sent=407 tag=CRITICAL latencyMs=3.658
+sent=407 tag=CRITICAL latencyMs=3.137
 Notification received: ACTION for 4
-sent=408 tag=CRITICAL latencyMs=3.481
+sent=408 tag=CRITICAL latencyMs=3.064
 Notification received: ACTION for 4
-sent=409 tag=CRITICAL latencyMs=10.838
+sent=409 tag=CRITICAL latencyMs=3.362
+sent=410 tag=CRITICAL latencyMs=3.563
 Notification received: ACTION for 4
-sent=410 tag=CRITICAL latencyMs=3.645
-sent=411 tag=CRITICAL latencyMs=4.038
+sent=411 tag=CRITICAL latencyMs=3.247
 Notification received: ACTION for 4
-sent=412 tag=CRITICAL latencyMs=4.443
+sent=412 tag=CRITICAL latencyMs=3.929
 Notification received: ACTION for 4
-sent=413 tag=CRITICAL latencyMs=4.836
+sent=413 tag=CRITICAL latencyMs=3.520
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=414 tag=CRITICAL latencyMs=3.466
+sent=414 tag=CRITICAL latencyMs=3.403
+sent=415 tag=CRITICAL latencyMs=4.000
 Notification received: ACTION for 4
-sent=415 tag=CRITICAL latencyMs=3.201
-sent=416 tag=CRITICAL latencyMs=2.919
 Notification received: ACTION for 4
+sent=416 tag=CRITICAL latencyMs=3.106
+sent=417 tag=CRITICAL latencyMs=4.537
 Notification received: ACTION for 4
-sent=417 tag=CRITICAL latencyMs=3.019
-sent=418 tag=CRITICAL latencyMs=3.466
+sent=418 tag=CRITICAL latencyMs=4.248
 Notification received: ACTION for 4
-sent=419 tag=CRITICAL latencyMs=3.392
+sent=419 tag=CRITICAL latencyMs=3.552
 Notification received: ACTION for 4
+sent=420 tag=CRITICAL latencyMs=3.876
 Notification received: ACTION for 4
-sent=420 tag=CRITICAL latencyMs=3.757
+sent=421 tag=CRITICAL latencyMs=3.759
 Notification received: ACTION for 4
-sent=421 tag=CRITICAL latencyMs=3.140
+sent=422 tag=CRITICAL latencyMs=3.180
 Notification received: ACTION for 4
-sent=422 tag=CRITICAL latencyMs=3.336
+sent=423 tag=CRITICAL latencyMs=4.023
 Notification received: ACTION for 4
-sent=423 tag=CRITICAL latencyMs=3.830
+sent=424 tag=CRITICAL latencyMs=3.245
 Notification received: ACTION for 4
-sent=424 tag=CRITICAL latencyMs=3.953
-sent=425 tag=CRITICAL latencyMs=3.029
 Notification received: ACTION for 4
-sent=426 tag=CRITICAL latencyMs=3.696
+sent=425 tag=CRITICAL latencyMs=3.653
+sent=426 tag=CRITICAL latencyMs=3.545
 Notification received: ACTION for 4
+sent=427 tag=CRITICAL latencyMs=4.138
 Notification received: ACTION for 4
-sent=427 tag=CRITICAL latencyMs=8.880
-sent=428 tag=CRITICAL latencyMs=3.720
+sent=428 tag=CRITICAL latencyMs=3.761
 Notification received: ACTION for 4
-sent=429 tag=CRITICAL latencyMs=3.070
+sent=429 tag=CRITICAL latencyMs=3.774
 Notification received: ACTION for 4
+sent=430 tag=CRITICAL latencyMs=3.495
 Notification received: ACTION for 4
-sent=430 tag=CRITICAL latencyMs=3.351
-sent=431 tag=CRITICAL latencyMs=3.077
 Notification received: ACTION for 4
-sent=432 tag=CRITICAL latencyMs=3.060
+sent=431 tag=CRITICAL latencyMs=3.842
+sent=432 tag=CRITICAL latencyMs=4.731
 Notification received: ACTION for 4
+sent=433 tag=CRITICAL latencyMs=3.594
 Notification received: ACTION for 4
-sent=433 tag=CRITICAL latencyMs=3.611
+sent=434 tag=CRITICAL latencyMs=3.901
 Notification received: ACTION for 4
-sent=434 tag=CRITICAL latencyMs=4.180
 Notification received: ACTION for 4
-sent=435 tag=CRITICAL latencyMs=3.192
+sent=435 tag=CRITICAL latencyMs=3.964
+sent=436 tag=CRITICAL latencyMs=3.498
 Notification received: ACTION for 4
-sent=436 tag=CRITICAL latencyMs=5.983
 Notification received: ACTION for 4
-sent=437 tag=CRITICAL latencyMs=11.518
+sent=437 tag=CRITICAL latencyMs=3.260
 Notification received: ACTION for 4
-sent=438 tag=CRITICAL latencyMs=4.279
+sent=438 tag=CRITICAL latencyMs=3.833
 Notification received: ACTION for 4
-sent=439 tag=CRITICAL latencyMs=3.130
+sent=439 tag=CRITICAL latencyMs=5.630
 Notification received: ACTION for 4
-sent=440 tag=CRITICAL latencyMs=3.632
+sent=440 tag=CRITICAL latencyMs=4.927
 Notification received: ACTION for 4
-sent=441 tag=CRITICAL latencyMs=4.544
+sent=441 tag=CRITICAL latencyMs=7.358
+sent=442 tag=CRITICAL latencyMs=3.304
 Notification received: ACTION for 4
-sent=442 tag=CRITICAL latencyMs=3.773
 Notification received: ACTION for 4
-sent=443 tag=CRITICAL latencyMs=3.731
-sent=444 tag=CRITICAL latencyMs=3.155
+sent=443 tag=CRITICAL latencyMs=3.219
+sent=444 tag=CRITICAL latencyMs=3.645
 Notification received: ACTION for 4
-sent=445 tag=CRITICAL latencyMs=3.014
+sent=445 tag=CRITICAL latencyMs=3.697
 Notification received: ACTION for 4
-sent=446 tag=CRITICAL latencyMs=3.599
+sent=446 tag=CRITICAL latencyMs=3.588
 Notification received: ACTION for 4
+sent=447 tag=CRITICAL latencyMs=3.286
 Notification received: ACTION for 4
-sent=447 tag=CRITICAL latencyMs=3.484
-sent=448 tag=CRITICAL latencyMs=3.471
+sent=448 tag=CRITICAL latencyMs=3.614
 Notification received: ACTION for 4
-sent=449 tag=CRITICAL latencyMs=3.985
 Notification received: ACTION for 4
+sent=449 tag=CRITICAL latencyMs=3.889
 Notification received: ACTION for 4
-sent=450 tag=CRITICAL latencyMs=3.741
+sent=450 tag=CRITICAL latencyMs=4.734
 Notification received: ACTION for 4
-sent=451 tag=CRITICAL latencyMs=3.952
+sent=451 tag=CRITICAL latencyMs=4.300
 Notification received: ACTION for 4
-sent=452 tag=CRITICAL latencyMs=4.411
+sent=452 tag=CRITICAL latencyMs=3.464
 Notification received: ACTION for 4
-sent=453 tag=CRITICAL latencyMs=4.480
-sent=454 tag=CRITICAL latencyMs=3.945
+sent=453 tag=CRITICAL latencyMs=3.477
 Notification received: ACTION for 4
-sent=455 tag=CRITICAL latencyMs=4.058
+sent=454 tag=CRITICAL latencyMs=3.355
 Notification received: ACTION for 4
-sent=456 tag=CRITICAL latencyMs=4.110
+sent=455 tag=CRITICAL latencyMs=3.980
 Notification received: ACTION for 4
-sent=457 tag=CRITICAL latencyMs=3.640
+sent=456 tag=CRITICAL latencyMs=4.305
+sent=457 tag=CRITICAL latencyMs=3.302
 Notification received: ACTION for 4
-sent=458 tag=CRITICAL latencyMs=3.012
+sent=458 tag=CRITICAL latencyMs=3.694
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=459 tag=CRITICAL latencyMs=2.996
-sent=460 tag=CRITICAL latencyMs=3.309
+sent=459 tag=CRITICAL latencyMs=3.541
 Notification received: ACTION for 4
+sent=460 tag=CRITICAL latencyMs=3.138
 Notification received: ACTION for 4
-sent=461 tag=CRITICAL latencyMs=3.598
+sent=461 tag=CRITICAL latencyMs=3.595
 Notification received: ACTION for 4
-sent=462 tag=CRITICAL latencyMs=3.605
+sent=462 tag=CRITICAL latencyMs=4.180
 Notification received: ACTION for 4
-sent=463 tag=CRITICAL latencyMs=3.698
-sent=464 tag=CRITICAL latencyMs=3.496
+sent=463 tag=CRITICAL latencyMs=4.078
+sent=464 tag=CRITICAL latencyMs=4.128
 Notification received: ACTION for 4
-sent=465 tag=CRITICAL latencyMs=3.673
+sent=465 tag=CRITICAL latencyMs=3.293
 Notification received: ACTION for 4
-sent=466 tag=CRITICAL latencyMs=4.323
 Notification received: ACTION for 4
-sent=467 tag=CRITICAL latencyMs=4.352
+sent=466 tag=CRITICAL latencyMs=3.151
 Notification received: ACTION for 4
+sent=467 tag=CRITICAL latencyMs=3.481
 Notification received: ACTION for 4
-sent=468 tag=CRITICAL latencyMs=7.658
+sent=468 tag=CRITICAL latencyMs=3.647
+sent=469 tag=CRITICAL latencyMs=3.193
 Notification received: ACTION for 4
-sent=469 tag=CRITICAL latencyMs=5.058
 Notification received: ACTION for 4
-sent=470 tag=CRITICAL latencyMs=3.128
+sent=470 tag=CRITICAL latencyMs=3.282
 Notification received: ACTION for 4
-sent=471 tag=CRITICAL latencyMs=3.657
-sent=472 tag=CRITICAL latencyMs=5.086
+sent=471 tag=CRITICAL latencyMs=4.199
+sent=472 tag=CRITICAL latencyMs=3.144
 Notification received: ACTION for 4
-sent=473 tag=CRITICAL latencyMs=3.569
+sent=473 tag=CRITICAL latencyMs=3.284
 Notification received: ACTION for 4
-sent=474 tag=CRITICAL latencyMs=3.191
 Notification received: ACTION for 4
-sent=475 tag=CRITICAL latencyMs=3.867
+sent=474 tag=CRITICAL latencyMs=4.236
 Notification received: ACTION for 4
-sent=476 tag=CRITICAL latencyMs=3.373
+sent=475 tag=CRITICAL latencyMs=4.451
+sent=476 tag=CRITICAL latencyMs=3.997
 Notification received: ACTION for 4
-sent=477 tag=CRITICAL latencyMs=6.733
 Notification received: ACTION for 4
-sent=478 tag=CRITICAL latencyMs=5.371
+sent=477 tag=CRITICAL latencyMs=4.224
+sent=478 tag=CRITICAL latencyMs=4.890
 Notification received: ACTION for 4
-sent=479 tag=CRITICAL latencyMs=5.740
+sent=479 tag=CRITICAL latencyMs=8.308
 Notification received: ACTION for 4
-sent=480 tag=CRITICAL latencyMs=3.702
 Notification received: ACTION for 4
-sent=481 tag=CRITICAL latencyMs=4.429
+sent=480 tag=CRITICAL latencyMs=6.773
 Notification received: ACTION for 4
-sent=482 tag=CRITICAL latencyMs=3.824
+sent=481 tag=CRITICAL latencyMs=3.816
 Notification received: ACTION for 4
-sent=483 tag=CRITICAL latencyMs=3.853
+sent=482 tag=CRITICAL latencyMs=3.252
+sent=483 tag=CRITICAL latencyMs=3.420
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=484 tag=CRITICAL latencyMs=3.892
+sent=484 tag=CRITICAL latencyMs=4.824
 Notification received: ACTION for 4
-sent=485 tag=CRITICAL latencyMs=8.005
-sent=486 tag=CRITICAL latencyMs=3.739
+sent=485 tag=CRITICAL latencyMs=9.294
 Notification received: ACTION for 4
+sent=486 tag=CRITICAL latencyMs=10.606
 Notification received: ACTION for 4
-sent=487 tag=CRITICAL latencyMs=6.565
-sent=488 tag=CRITICAL latencyMs=4.095
+sent=487 tag=CRITICAL latencyMs=10.271
 Notification received: ACTION for 4
+sent=488 tag=CRITICAL latencyMs=7.413
 Notification received: ACTION for 4
-sent=489 tag=CRITICAL latencyMs=3.360
+sent=489 tag=CRITICAL latencyMs=3.949
 Notification received: ACTION for 4
-sent=490 tag=CRITICAL latencyMs=3.338
+sent=490 tag=CRITICAL latencyMs=4.346
+sent=491 tag=CRITICAL latencyMs=3.092
 Notification received: ACTION for 4
-sent=491 tag=CRITICAL latencyMs=4.125
+sent=492 tag=CRITICAL latencyMs=4.385
 Notification received: ACTION for 4
-sent=492 tag=CRITICAL latencyMs=4.288
+sent=493 tag=CRITICAL latencyMs=4.681
 Notification received: ACTION for 4
-sent=493 tag=CRITICAL latencyMs=3.854
+sent=494 tag=CRITICAL latencyMs=4.886
 Notification received: ACTION for 4
-sent=494 tag=CRITICAL latencyMs=3.801
-sent=495 tag=CRITICAL latencyMs=3.234
 Notification received: ACTION for 4
-sent=496 tag=CRITICAL latencyMs=3.306
+sent=495 tag=CRITICAL latencyMs=3.838
 Notification received: ACTION for 4
+sent=496 tag=CRITICAL latencyMs=4.860
+sent=497 tag=CRITICAL latencyMs=3.740
 Notification received: ACTION for 4
-sent=497 tag=CRITICAL latencyMs=4.184
 Notification received: ACTION for 4
-sent=498 tag=CRITICAL latencyMs=5.431
+sent=498 tag=CRITICAL latencyMs=3.998
 Notification received: ACTION for 4
-sent=499 tag=CRITICAL latencyMs=5.740
+sent=499 tag=CRITICAL latencyMs=3.947
 Notification received: ACTION for 4
-sent=500 tag=CRITICAL latencyMs=4.396
-sent=501 tag=CRITICAL latencyMs=4.016
+sent=500 tag=CRITICAL latencyMs=3.360
 Notification received: ACTION for 4
+sent=501 tag=CRITICAL latencyMs=3.758
+sent=502 tag=CRITICAL latencyMs=5.028
 Notification received: ACTION for 4
-sent=502 tag=CRITICAL latencyMs=3.087
-sent=503 tag=CRITICAL latencyMs=3.023
 Notification received: ACTION for 4
+sent=503 tag=CRITICAL latencyMs=4.214
+sent=504 tag=CRITICAL latencyMs=3.330
 Notification received: ACTION for 4
-sent=504 tag=CRITICAL latencyMs=3.394
 Notification received: ACTION for 4
-sent=505 tag=CRITICAL latencyMs=3.349
+sent=505 tag=CRITICAL latencyMs=3.677
+sent=506 tag=CRITICAL latencyMs=4.552
 Notification received: ACTION for 4
-sent=506 tag=CRITICAL latencyMs=3.930
 Notification received: ACTION for 4
-sent=507 tag=CRITICAL latencyMs=3.829
+sent=507 tag=CRITICAL latencyMs=3.303
+sent=508 tag=CRITICAL latencyMs=3.223
 Notification received: ACTION for 4
-sent=508 tag=CRITICAL latencyMs=3.904
-sent=509 tag=CRITICAL latencyMs=8.579
 Notification received: ACTION for 4
+sent=509 tag=CRITICAL latencyMs=3.655
+sent=510 tag=CRITICAL latencyMs=3.980
 Notification received: ACTION for 4
-sent=510 tag=CRITICAL latencyMs=2.999
-sent=511 tag=CRITICAL latencyMs=3.187
 Notification received: ACTION for 4
-sent=512 tag=CRITICAL latencyMs=3.292
+sent=511 tag=CRITICAL latencyMs=4.209
+sent=512 tag=CRITICAL latencyMs=4.920
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=513 tag=CRITICAL latencyMs=4.928
-sent=514 tag=CRITICAL latencyMs=3.869
+sent=513 tag=CRITICAL latencyMs=4.592
+sent=514 tag=CRITICAL latencyMs=3.821
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=515 tag=CRITICAL latencyMs=3.649
+sent=515 tag=CRITICAL latencyMs=3.733
 Notification received: ACTION for 4
-sent=516 tag=CRITICAL latencyMs=4.625
+sent=516 tag=CRITICAL latencyMs=3.373
+sent=517 tag=CRITICAL latencyMs=3.669
 Notification received: ACTION for 4
-sent=517 tag=CRITICAL latencyMs=3.239
 Notification received: ACTION for 4
-sent=518 tag=CRITICAL latencyMs=3.333
+sent=518 tag=CRITICAL latencyMs=3.576
 Notification received: ACTION for 4
-sent=519 tag=CRITICAL latencyMs=3.245
+sent=519 tag=CRITICAL latencyMs=3.150
 Notification received: ACTION for 4
-sent=520 tag=CRITICAL latencyMs=3.439
+sent=520 tag=CRITICAL latencyMs=3.519
 Notification received: ACTION for 4
-sent=521 tag=CRITICAL latencyMs=3.726
+sent=521 tag=CRITICAL latencyMs=3.302
+sent=522 tag=CRITICAL latencyMs=3.542
 Notification received: ACTION for 4
-sent=522 tag=CRITICAL latencyMs=3.195
-sent=523 tag=CRITICAL latencyMs=3.887
 Notification received: ACTION for 4
+sent=523 tag=CRITICAL latencyMs=4.019
 Notification received: ACTION for 4
-sent=524 tag=CRITICAL latencyMs=4.618
+sent=524 tag=CRITICAL latencyMs=2.994
 Notification received: ACTION for 4
-sent=525 tag=CRITICAL latencyMs=3.034
+sent=525 tag=CRITICAL latencyMs=3.625
 Notification received: ACTION for 4
-sent=526 tag=CRITICAL latencyMs=3.381
+sent=526 tag=CRITICAL latencyMs=3.236
 Notification received: ACTION for 4
-sent=527 tag=CRITICAL latencyMs=3.182
+sent=527 tag=CRITICAL latencyMs=3.013
 Notification received: ACTION for 4
-sent=528 tag=CRITICAL latencyMs=5.178
+sent=528 tag=CRITICAL latencyMs=3.121
 Notification received: ACTION for 4
-sent=529 tag=CRITICAL latencyMs=4.439
+sent=529 tag=CRITICAL latencyMs=3.948
 Notification received: ACTION for 4
-sent=530 tag=CRITICAL latencyMs=3.742
-sent=531 tag=CRITICAL latencyMs=3.619
+sent=530 tag=CRITICAL latencyMs=4.433
 Notification received: ACTION for 4
+sent=531 tag=CRITICAL latencyMs=3.910
 Notification received: ACTION for 4
-sent=532 tag=CRITICAL latencyMs=5.407
-sent=533 tag=CRITICAL latencyMs=4.906
+sent=532 tag=CRITICAL latencyMs=3.474
 Notification received: ACTION for 4
+sent=533 tag=CRITICAL latencyMs=3.112
 Notification received: ACTION for 4
-sent=534 tag=CRITICAL latencyMs=3.504
+sent=534 tag=CRITICAL latencyMs=3.476
 Notification received: ACTION for 4
-sent=535 tag=CRITICAL latencyMs=3.422
+sent=535 tag=CRITICAL latencyMs=3.545
 Notification received: ACTION for 4
-sent=536 tag=CRITICAL latencyMs=3.458
+sent=536 tag=CRITICAL latencyMs=4.247
 Notification received: ACTION for 4
-sent=537 tag=CRITICAL latencyMs=3.201
+sent=537 tag=CRITICAL latencyMs=3.010
 Notification received: ACTION for 4
-sent=538 tag=CRITICAL latencyMs=3.043
+sent=538 tag=CRITICAL latencyMs=4.207
 Notification received: ACTION for 4
-sent=539 tag=CRITICAL latencyMs=3.976
+sent=539 tag=CRITICAL latencyMs=3.459
 Notification received: ACTION for 4
-sent=540 tag=CRITICAL latencyMs=3.413
+sent=540 tag=CRITICAL latencyMs=3.738
 Notification received: ACTION for 4
-sent=541 tag=CRITICAL latencyMs=3.837
+sent=541 tag=CRITICAL latencyMs=3.528
 Notification received: ACTION for 4
-sent=542 tag=CRITICAL latencyMs=3.614
+sent=542 tag=CRITICAL latencyMs=3.219
 Notification received: ACTION for 4
-sent=543 tag=CRITICAL latencyMs=3.399
+sent=543 tag=CRITICAL latencyMs=5.828
 Notification received: ACTION for 4
-sent=544 tag=CRITICAL latencyMs=3.690
-sent=545 tag=CRITICAL latencyMs=4.434
+sent=544 tag=CRITICAL latencyMs=4.196
 Notification received: ACTION for 4
-sent=546 tag=CRITICAL latencyMs=3.965
+sent=545 tag=CRITICAL latencyMs=3.347
 Notification received: ACTION for 4
+sent=546 tag=CRITICAL latencyMs=3.237
 Notification received: ACTION for 4
-sent=547 tag=CRITICAL latencyMs=3.639
+sent=547 tag=CRITICAL latencyMs=3.171
 Notification received: ACTION for 4
-sent=548 tag=CRITICAL latencyMs=2.998
+sent=548 tag=CRITICAL latencyMs=4.663
 Notification received: ACTION for 4
-sent=549 tag=CRITICAL latencyMs=5.914
+sent=549 tag=CRITICAL latencyMs=3.197
 Notification received: ACTION for 4
-sent=550 tag=CRITICAL latencyMs=8.830
+sent=550 tag=CRITICAL latencyMs=3.588
 Notification received: ACTION for 4
-sent=551 tag=CRITICAL latencyMs=4.092
+sent=551 tag=CRITICAL latencyMs=3.711
 Notification received: ACTION for 4
-sent=552 tag=CRITICAL latencyMs=4.431
+sent=552 tag=CRITICAL latencyMs=3.425
 Notification received: ACTION for 4
-sent=553 tag=CRITICAL latencyMs=3.250
-sent=554 tag=CRITICAL latencyMs=3.463
+sent=553 tag=CRITICAL latencyMs=3.844
 Notification received: ACTION for 4
+sent=554 tag=CRITICAL latencyMs=4.061
 Notification received: ACTION for 4
-sent=555 tag=CRITICAL latencyMs=3.221
+sent=555 tag=CRITICAL latencyMs=3.753
 Notification received: ACTION for 4
-sent=556 tag=CRITICAL latencyMs=5.761
+sent=556 tag=CRITICAL latencyMs=3.231
 Notification received: ACTION for 4
-sent=557 tag=CRITICAL latencyMs=4.446
+sent=557 tag=CRITICAL latencyMs=2.978
 Notification received: ACTION for 4
-sent=558 tag=CRITICAL latencyMs=8.583
+sent=558 tag=CRITICAL latencyMs=3.204
 Notification received: ACTION for 4
-sent=559 tag=CRITICAL latencyMs=11.576
+sent=559 tag=CRITICAL latencyMs=3.653
 Notification received: ACTION for 4
-sent=560 tag=CRITICAL latencyMs=4.002
+sent=560 tag=CRITICAL latencyMs=3.703
 Notification received: ACTION for 4
-sent=561 tag=CRITICAL latencyMs=4.178
+sent=561 tag=CRITICAL latencyMs=9.296
 Notification received: ACTION for 4
-sent=562 tag=CRITICAL latencyMs=12.629
+sent=562 tag=CRITICAL latencyMs=3.524
 Notification received: ACTION for 4
-sent=563 tag=CRITICAL latencyMs=3.232
+sent=563 tag=CRITICAL latencyMs=5.991
 Notification received: ACTION for 4
-sent=564 tag=CRITICAL latencyMs=3.775
+sent=564 tag=CRITICAL latencyMs=3.622
 Notification received: ACTION for 4
-sent=565 tag=CRITICAL latencyMs=3.882
+sent=565 tag=CRITICAL latencyMs=3.344
 Notification received: ACTION for 4
-sent=566 tag=CRITICAL latencyMs=3.312
+sent=566 tag=CRITICAL latencyMs=3.399
 Notification received: ACTION for 4
-sent=567 tag=CRITICAL latencyMs=3.562
-sent=568 tag=CRITICAL latencyMs=3.454
+sent=567 tag=CRITICAL latencyMs=3.227
 Notification received: ACTION for 4
-sent=569 tag=CRITICAL latencyMs=4.212
+sent=568 tag=CRITICAL latencyMs=4.197
 Notification received: ACTION for 4
+sent=569 tag=CRITICAL latencyMs=4.023
 Notification received: ACTION for 4
-sent=570 tag=CRITICAL latencyMs=3.333
-sent=571 tag=CRITICAL latencyMs=3.537
+sent=570 tag=CRITICAL latencyMs=4.121
 Notification received: ACTION for 4
+sent=571 tag=CRITICAL latencyMs=5.439
 Notification received: ACTION for 4
-sent=572 tag=CRITICAL latencyMs=3.999
+sent=572 tag=CRITICAL latencyMs=4.935
 Notification received: ACTION for 4
-sent=573 tag=CRITICAL latencyMs=4.285
+sent=573 tag=CRITICAL latencyMs=5.079
 Notification received: ACTION for 4
-sent=574 tag=CRITICAL latencyMs=3.359
+sent=574 tag=CRITICAL latencyMs=5.708
 Notification received: ACTION for 4
-sent=575 tag=CRITICAL latencyMs=3.324
-sent=576 tag=CRITICAL latencyMs=3.689
+sent=575 tag=CRITICAL latencyMs=5.859
 Notification received: ACTION for 4
+sent=576 tag=CRITICAL latencyMs=4.093
 Notification received: ACTION for 4
-sent=577 tag=CRITICAL latencyMs=3.392
-sent=578 tag=CRITICAL latencyMs=3.405
+sent=577 tag=CRITICAL latencyMs=3.801
 Notification received: ACTION for 4
+sent=578 tag=CRITICAL latencyMs=3.578
+sent=579 tag=CRITICAL latencyMs=3.429
 Notification received: ACTION for 4
-sent=579 tag=CRITICAL latencyMs=3.684
 Notification received: ACTION for 4
-sent=580 tag=CRITICAL latencyMs=3.557
+sent=580 tag=CRITICAL latencyMs=3.161
+sent=581 tag=CRITICAL latencyMs=3.259
 Notification received: ACTION for 4
-sent=581 tag=CRITICAL latencyMs=4.296
 Notification received: ACTION for 4
-sent=582 tag=CRITICAL latencyMs=3.631
+sent=582 tag=CRITICAL latencyMs=3.201
 Notification received: ACTION for 4
-sent=583 tag=CRITICAL latencyMs=3.453
-sent=584 tag=CRITICAL latencyMs=3.887
+sent=583 tag=CRITICAL latencyMs=3.068
 Notification received: ACTION for 4
+sent=584 tag=CRITICAL latencyMs=3.041
 Notification received: ACTION for 4
-sent=585 tag=CRITICAL latencyMs=3.586
+sent=585 tag=CRITICAL latencyMs=3.083
 Notification received: ACTION for 4
-sent=586 tag=CRITICAL latencyMs=3.300
+sent=586 tag=CRITICAL latencyMs=3.034
 Notification received: ACTION for 4
-sent=587 tag=CRITICAL latencyMs=4.265
+sent=587 tag=CRITICAL latencyMs=3.232
 Notification received: ACTION for 4
-sent=588 tag=CRITICAL latencyMs=3.616
-sent=589 tag=CRITICAL latencyMs=3.497
+sent=588 tag=CRITICAL latencyMs=3.178
+sent=589 tag=CRITICAL latencyMs=3.871
 Notification received: ACTION for 4
 Notification received: ACTION for 4
-sent=590 tag=CRITICAL latencyMs=4.165
+sent=590 tag=CRITICAL latencyMs=2.963
 Notification received: ACTION for 4
-sent=591 tag=CRITICAL latencyMs=3.949
+sent=591 tag=CRITICAL latencyMs=3.771
 Notification received: ACTION for 4
-sent=592 tag=CRITICAL latencyMs=3.861
+sent=592 tag=CRITICAL latencyMs=3.353
 Notification received: ACTION for 4
-sent=593 tag=CRITICAL latencyMs=3.639
+sent=593 tag=CRITICAL latencyMs=3.242
 Notification received: ACTION for 4
-sent=594 tag=CRITICAL latencyMs=3.668
+sent=594 tag=CRITICAL latencyMs=5.743
 Notification received: ACTION for 4
-sent=595 tag=CRITICAL latencyMs=3.632
+sent=595 tag=CRITICAL latencyMs=3.989
 Notification received: ACTION for 4
-sent=596 tag=CRITICAL latencyMs=3.762
+sent=596 tag=CRITICAL latencyMs=18.096
 Notification received: ACTION for 4
-sent=597 tag=CRITICAL latencyMs=3.893
+sent=597 tag=CRITICAL latencyMs=4.774
 Notification received: ACTION for 4
-sent=598 tag=CRITICAL latencyMs=3.579
-sent=599 tag=CRITICAL latencyMs=3.692
+sent=598 tag=CRITICAL latencyMs=3.791
 Notification received: ACTION for 4
+sent=599 tag=CRITICAL latencyMs=3.466
 Notification received: ACTION for 4
-sent=600 tag=CRITICAL latencyMs=4.563
-Client summary: bus=4 messages=600 averageSendLatencyMs=4.691 throughput=35.85 msg/sec
+sent=600 tag=CRITICAL latencyMs=3.656
+Client summary: bus=4 messages=600 averageSendLatencyMs=4.850 throughput=35.91 msg/sec

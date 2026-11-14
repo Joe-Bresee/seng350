@@ -1,8 +1,8 @@
 Picked up _JAVA_OPTIONS: -Xmx1024m -XX:CompressedClassSpaceSize=256m
 Control center running with configuration: server-threadpool-1.cfg
-Bus subscribed: 1
-Bus subscribed: 4
 Bus subscribed: 3
+Bus subscribed: 4
+Bus subscribed: 1
 Bus subscribed: 2
 Processed messages: 100
 Processed messages: 200
