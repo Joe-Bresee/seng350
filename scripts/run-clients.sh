@@ -7,7 +7,7 @@ CRITICAL_PERCENTAGE="${3:-100}"
 XVFB_SCREEN="${XVFB_SCREEN:-1280x720x24}"
 
 if ! command -v xvfb-run >/dev/null 2>&1; then
-    echo "xvfb-run is required to launch clients with a virtual X11 display." >&2
+    echo "need xvfb-run" >&2
     exit 1
 fi
 
