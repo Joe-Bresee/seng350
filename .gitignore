@@ -1,1 +1,3 @@
 data/**
+server_run*.log
+client_*.log

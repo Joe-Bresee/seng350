@@ -1,200 +1,101 @@
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.concurrent.Semaphore;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.Map;
 
 import com.zeroc.Ice.Current;
 
 import Demo.CallbackPrx;
 
 import java.util.Base64;
-
-import java.util.Base64;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-
 import java.io.IOException;
-import java.util.concurrent.atomic.AtomicInteger;
-
-
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class ChatManagerImp implements Demo.ChatManager {
-
-    //Performance analysis
-    private final AtomicInteger receivedNormalCount = new AtomicInteger(0);
-    private final AtomicInteger dispatchedNotificationCount = new AtomicInteger(0);
-    private final int targetThreshold;
-    private final java.util.concurrent.atomic.AtomicInteger processedCount = new java.util.concurrent.atomic.AtomicInteger(0);
-    private long experimentStartTime = 0;
-
-    public ChatManagerImp(int targetThreshold) {
-        this.targetThreshold = targetThreshold;
-        this.messages = java.util.Collections.synchronizedList(new java.util.ArrayList<>());
-    }
-
-    private void checkProgress(Current current) {
-        int currentCount = processedCount.incrementAndGet();
-        
-        if (currentCount == 1) {
-            experimentStartTime = System.currentTimeMillis();
-        }
-        
-        if (currentCount == targetThreshold) {
-            long durationMs = System.currentTimeMillis() - experimentStartTime;
-            double durationSec = durationMs / 1000.0;
-            
-            System.out.println("\n=== EXPERIMENT RUN RESULTS ===");
-            System.out.println("Total Processing Window: " + durationSec + " seconds");
-            System.out.println("Total Messages Handled: " + currentCount);
-            System.out.println("Throughput Factor: " + (currentCount / durationSec) + " msg/sec");
-            System.out.println("==============================\n");
-            
-            if (current != null && current.adapter != null) {
-                System.out.println("Stopping ZeroC Ice Communicator...");
-                com.zeroc.Ice.Communicator communicator = current.adapter.getCommunicator();
-                communicator.waitForShutdown();
-            }
-        }
-    }
-
-    public void resetAndStartExperiment() {
-        receivedNormalCount.set(0);
-        dispatchedNotificationCount.set(0);
-        experimentStartTime = System.currentTimeMillis();
-        System.out.println("=== EXPERIMENT RUN STARTED ===");
-    }
-
-    public void printExperimentResults() {
-        long durationMs = System.currentTimeMillis() - experimentStartTime;
-        double durationSec = durationMs / 1000.0;
-        
-        int totalNormal = receivedNormalCount.get();
-        int totalNotify = dispatchedNotificationCount.get();
-
-        System.out.println("=== EXPERIMENT RUN RESULTS ===");
-        System.out.println("Total Execution Time: " + durationSec + " seconds");
-        System.out.println("NORMAL Msg Processed (Received & Stored): " + totalNormal);
-        System.out.println("NORMAL Throughput: " + (totalNormal / durationSec) + " msg/sec");
-        System.out.println("Notifications Dispatched: " + totalNotify);
-        System.out.println("Notification Throughput: " + (totalNotify / durationSec) + " notifications/sec");
-    }
-
-
-    private List<String> messages;
-    // Semaphore mSemaphore = new Semaphore(1);
-    private CopyOnWriteArrayList<CallbackPrx> subscribers = new CopyOnWriteArrayList<>();
+    private static final DateTimeFormatter FILE_TIME =
+            DateTimeFormatter.ofPattern("yyyy-MM-dd-HH-mm-ss-SSS");
+    private final CopyOnWriteArrayList<CallbackPrx> subscribers = new CopyOnWriteArrayList<>();
+    private final Map<String, CallbackPrx> busSubscribers = new ConcurrentHashMap<>();
+    private final Map<String, CallbackPrx> connectionSubscribers = new ConcurrentHashMap<>();
 
     @Override
     public void subscribe(CallbackPrx callback, Current current) {
-        System.out.println("subscribed");
-
         subscribers.add(callback);
-
-        // this.callbackPrx = callback;
+        if (current.con != null) {
+            connectionSubscribers.put(current.con.toString(), callback);
+        }
+        System.out.println("Subscribed an unscoped observer");
     }
 
     @Override
     public String[] getState(Current current) {
-        // System.out.println("GetState");
-        String[] state = new String[messages.size()];
-
-        for (int i = 0; i < state.length; i++) {
-            state[i] = messages.get(i);
-        }
-        return state;
+        return new String[0];
     }
 
-        @Override
-        public void sendMessage(String msg, Current current) {
-            new Thread(() -> {
-                try {
-                    processMessage(msg, current);
-                    // try {
-                    //     Thread.sleep(2000);
-                    // } catch (Exception e) {
-                    //     // handle exception
-                    // }
-                    // callbackPrx.notifyCallback();
-                } catch (Exception e) {
-                    System.err.println("Critical error processing asynchronous message: " + e.getMessage());
-                    e.printStackTrace();
-                }
-            }).start();
+    @Override
+    public void sendMessage(String msg, Current current) {
+        if (msg.startsWith("REGISTER|")) {
+            String busId = msg.substring("REGISTER|".length());
+            CallbackPrx callback = current.con == null ? null :
+                    connectionSubscribers.get(current.con.toString());
+            if (callback != null) {
+                busSubscribers.put(busId, callback);
+            }
+            return;
         }
+        processMessage(msg);
+    }
 
-
-    public void sendMessageToSubscribers(String message) {
+    private void sendMessageToSubscribers(String message) {
         for (CallbackPrx subscriber : subscribers) {
             try {
                 subscriber.notifyCallbackAsync(message);
-
-                dispatchedNotificationCount.incrementAndGet();
             } catch (Exception e) {
                 subscribers.remove(subscriber);
             }
         }
     }
 
-
-    private void processMessage(String serialized, Current current) {
-        String[] parts = serialized.split("\\|", 4);
-
-        int busId = Integer.parseInt(parts[0]);
-        String tag = parts[1].trim();
-        String timestamp = parts[2];
-
-        byte[] imageBytes = Base64.getDecoder().decode(parts[3]);
-
-        System.out.println("Received image bytes: " + imageBytes.length);
-
-        Path directory = Paths.get("data/serverImages", Integer.toString(busId));
-
-        
-        if ("NORMAL".equals(tag)) {
-            try{
-
-                Files.createDirectories(directory);
-
-
-            }catch(IOException e){
-                System.out.println("Failed to create directory");
-            }
-
-            
-            String filename = System.currentTimeMillis() + ".jpg";
-
-            Path imagePath = directory.resolve(filename);
-
-
-            try{
-
-                Files.write(imagePath, imageBytes);
-
-                receivedNormalCount.incrementAndGet();
-
-            }catch(IOException e){
-                System.out.println("Failed to save image");
-            }
-
-            checkProgress(current);
+    private void sendMessageToBus(String busId, String message) {
+        CallbackPrx subscriber = busSubscribers.get(busId);
+        if (subscriber == null) {
+            return;
         }
-
-        if("GENERALINTEREST".equals(tag)){
-
-            System.out.println("dispatching general interest message to fleet");
-            String message = "GENERALINTEREST from " + busId;
-
-            sendMessageToSubscribers(message);
-
-            checkProgress(current);
+        try {
+            subscriber.notifyCallback(message);
+        } catch (Exception e) {
+            busSubscribers.remove(busId, subscriber);
         }
-
-
-        // System.out.println("Bus ID: " + busId);
-        // System.out.println("Tag: " + tag);
-        // System.out.println("Timestamp: " + timestamp);
-        // System.out.println("Image size: " + imageBytes.length + " bytes");
     }
 
+    private void processMessage(String serialized) {
+        String[] parts = serialized.split("\\|", 4);
+        if (parts.length != 4) {
+            throw new IllegalArgumentException("Invalid image message");
+        }
+
+        String busId = parts[0];
+        String tag = parts[1].trim();
+        byte[] imageBytes = Base64.getDecoder().decode(parts[3]);
+
+        Path directory = Paths.get("data/serverImages", busId);
+        try {
+            Files.createDirectories(directory);
+            String filename = tag + "-" + LocalDateTime.now().format(FILE_TIME) + ".jpg";
+            Files.write(directory.resolve(filename), imageBytes);
+        } catch (IOException e) {
+            throw new IllegalStateException("Could not store image for bus " + busId, e);
+        }
+
+        if ("GENERALINTEREST".equals(tag)) {
+            sendMessageToSubscribers("GENERALINTEREST from " + busId);
+        } else if ("CRITICAL".equals(tag)) {
+            sendMessageToBus(busId, "ACTION for " + busId);
+        } else if (!"NORMAL".equals(tag)) {
+            throw new IllegalArgumentException("Unknown image tag: " + tag);
+        }
+    }
 }

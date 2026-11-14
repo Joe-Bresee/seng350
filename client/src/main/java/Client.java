@@ -1,5 +1,4 @@
 import java.net.Inet4Address;
-import java.util.Arrays;
 
 import com.zeroc.Ice.ObjectAdapter;
 import com.zeroc.Ice.ObjectPrx;
@@ -9,11 +8,15 @@ import Demo.CallbackPrx;
 import Demo.ChatManagerPrx;
 
 import java.time.LocalDateTime;
-import java.time.LocalDateTime;
 import java.util.Random;
-import java.io.File;
-import java.nio.file.Files;
 import java.util.Base64;
+import java.awt.Dimension;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayOutputStream;
+import javax.imageio.ImageIO;
 
 
 public class Client {
@@ -25,35 +28,7 @@ public class Client {
         String busID = args[0];
         int max_images = Integer.parseInt(args[1]);
         int freq = Integer.parseInt(args[2]);
-        int p_generalinterest = Integer.parseInt(args[3]);
-
-        String directoryString = "data/" + busID;
-        File directory = new File(directoryString);
-        File[] images = directory.listFiles();
-        
-        // System.out.println(images.length);
-
-        int total_num_images = Math.min(max_images, images.length);
-
-        if (total_num_images == 0){
-            total_num_images = images.length;
-        }
-
-        byte[][] imageBytes = new byte[total_num_images][];
-        for (int i = 0; i < total_num_images; i++) {
-            try {
-                
-                imageBytes[i] = Files.readAllBytes(images[i].toPath());
-                
-                
-                // System.out.println("Loaded image " + i + " with size: " + imageBytes[i].length + " bytes");
-            } catch (java.io.IOException e) {
-                System.err.println("Failed to read image at index " + i);
-                e.printStackTrace();
-            }
-        }
-
-        String tag;
+        int p_critical = Integer.parseInt(args[3]);
         Random rand = new Random();
         
 
@@ -74,24 +49,23 @@ public class Client {
 
                 CallbackPrx prx = CallbackPrx.uncheckedCast(objectPrx);
                 chatManagerPrx.subscribe(prx);
+                chatManagerPrx.sendMessage("REGISTER|" + busID);
 
                 String hostname = Inet4Address.getLocalHost().getHostName();
                 System.out.println("hostname: " + hostname);
 
 
-                for (int i = 0; i < imageBytes.length; i++) {
-                    if (rand.nextInt(100) < p_generalinterest) {
-                        tag = "GENERALINTEREST";
-                    } else { 
-                        tag = "NORMAL";
-                    }
+                long runStart = System.nanoTime();
+                for (int i = 0; i < max_images; i++) {
+                    String tag = rand.nextInt(100) < p_critical ? "CRITICAL" : "NORMAL";
+                    byte[] imageBytes = captureScreenshot();
 
                     LocalDateTime timestamp = LocalDateTime.now();
                     ImageMessage imagemessage = new ImageMessage(
                         busID,
                         tag,
                         timestamp,
-                        imageBytes[i]
+                        imageBytes
                     );
 
                     imagemessage.printInfo();
@@ -101,10 +75,13 @@ public class Client {
                     String serialized = serializeMessage(imagemessage);
 
                     // System.out.println("Sending image" + i);
-                    // System.out.println("Original Bytes " + imageBytes[i].length);
+                    // System.out.println("Original Bytes " + imageBytes.length);
                     // System.out.println("Serialized message characters: " + serialized.length());
 
+                    long sendStart = System.nanoTime();
                     chatManagerPrx.sendMessage(serialized);
+                    System.out.printf("LATENCY_MS bus=%s image=%d value=%.3f%n",
+                            busID, i + 1, (System.nanoTime() - sendStart) / 1_000_000.0);
 
                     try{
                         Thread.sleep(freq);
@@ -112,11 +89,13 @@ public class Client {
                         Thread.currentThread().interrupt();
                         return;
                     }
-                    // send(imageBytes[i]);
                     // wait(freq);
                 }
 
                 // chatManagerPrx.sendMessage(hostname + ": Hello World");
+                double elapsedSeconds = (System.nanoTime() - runStart) / 1_000_000_000.0;
+                System.out.printf("THROUGHPUT bus=%s messages=%d value=%.3f%n",
+                        busID, max_images, max_images / elapsedSeconds);
                 System.out.println("Client shutting down communicator...");
                 communicator.shutdown();
                 communicator.waitForShutdown();
@@ -125,9 +104,22 @@ public class Client {
                 // saveMessage(dest,)
                 e.printStackTrace();
             }
+
         }
 
     }
+    private static byte[] captureScreenshot() {
+        try {
+            Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
+            BufferedImage image = new Robot().createScreenCapture(new Rectangle(screen));
+            ByteArrayOutputStream output = new ByteArrayOutputStream();
+            ImageIO.write(image, "jpg", output);
+            return output.toByteArray();
+        } catch (Exception e) {
+            throw new IllegalStateException("Unable to capture a screenshot", e);
+        }
+    }
+
     private static String serializeMessage(ImageMessage message) {
 
         String imageBase64 = Base64.getEncoder()

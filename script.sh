@@ -1,41 +1,33 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-set -e
-
-echo " Starting Performance Quality Attribute Experimentation  "
-
-TOTAL_IMAGES_PER_CLIENT=600
-FREQUENCY_MS=200
-GI_PROBABILITY=100
-
-TOTAL_EXPECTED_MSGS=$(( TOTAL_IMAGES_PER_CLIENT * 3 ))
+images_per_client="${1:-600}"
+frequency_ms="${2:-0}"
+critical_percentage="${3:-100}"
+clients=(1 2 3 4)
 
 gradle build
 
-java -jar server/build/libs/server.jar "$TOTAL_EXPECTED_MSGS" > server_run.log 2>&1 &
-SERVER_PID=$!
-sleep 2.5
+for size in 1 4 8 12; do
+    log="server_run_${size}.log"
+    java -jar server/build/libs/server.jar "server/configs/server-${size}.cfg" >"$log" 2>&1 &
+    server_pid=$!
+    trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+    sleep 2
 
-java -jar client/build/libs/client.jar 1 "$TOTAL_IMAGES_PER_CLIENT" "$FREQUENCY_MS" "$GI_PROBABILITY" &
-C1_PID=$!
-java -jar client/build/libs/client.jar 2 "$TOTAL_IMAGES_PER_CLIENT" "$FREQUENCY_MS" "$GI_PROBABILITY" &
-C2_PID=$!
-java -jar client/build/libs/client.jar 3 "$TOTAL_IMAGES_PER_CLIENT" "$FREQUENCY_MS" "$GI_PROBABILITY" &
-C3_PID=$!
+    client_pids=()
+    for bus_id in "${clients[@]}"; do
+        java -jar client/build/libs/client.jar "$bus_id" "$images_per_client" \
+            "$frequency_ms" "$critical_percentage" >"client_${size}_${bus_id}.log" 2>&1 &
+        client_pids+=("$!")
+    done
+    for client_pid in "${client_pids[@]}"; do
+        wait "$client_pid"
+    done
 
-wait $C1_PID
-wait $C2_PID
-wait $C3_PID
-echo "Completed, see analysis"
+    kill "$server_pid" 2>/dev/null || true
+    wait "$server_pid" 2>/dev/null || true
+    trap - EXIT
+done
 
-sleep 1.0
-
-echo ""
-cat server_run.log | grep -A 4 "=== EXPERIMENT RUN RESULTS ===" || echo "Error: Profiler results missing from server logs."
-
-if kill -0 $SERVER_PID 2>/dev/null; then
-    kill -9 $SERVER_PID
-fi
-
-# rm -f server_run.log
-echo "Experiment execution successfully processed."
+echo "Completed thread-pool experiments. See server_run_{1,4,8,12}.log and client_*.log."
